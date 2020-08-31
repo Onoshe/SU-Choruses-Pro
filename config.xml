@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "io.imfast.sundayadegboye"
+    versionCode = "10"
+    version     = "1.0.5" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>SU Choruses</name>
+
+  <description>
+      This app is based on the Scripture Union Choruses book published by Scripture Union (Nigeria) Press and Books Ltd 2015 edition.
+      It features three C.S.S.M. Chorus Books:
+      No.1 - 1 to 324
+      No.2 - 325 to 535
+      No.3 - 535 to 709 
+  </description>
+
+  <author href="https://sundayadegboye.imfast.io/" email="adesung2005@yahoo.co.uk">
+      Sunday Adegboye
+  </author>
+  <!--<icon src="icon.png" />-->
+  <!--<plugin name="cordova-plugin-splashscreen" source="npm" />-->
+   <plugin name="cordova-plugin-splashscreen" spec="6.0.0" />
+
+
+    <platform name="android">
+        <icon src="res/icon/android/ldpi.png" density="ldpi" />
+        <icon src="res/icon/android/mdpi.png" density="mdpi" />
+        <icon src="res/icon/android/hdpi.png" density="hdpi" />
+        <icon src="res/icon/android/xhdpi.png" density="xhdpi" />
+        <icon src="res/icon/android/xxhdpi.png" density="xxhdpi" />
+        <icon src="res/icon/android/xxxhdpi.png" density="xxxhdpi" />
+    </platform>
+
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="res/icon/android/screen-ldpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="res/icon/android/screen-mdpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="res/icon/android/screen-hdpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="res/icon/android/screen-xhdpi-portrait.png" />
+    <splash src="splash.png" />
+
+  <preference name="orientation" value="portrait"/>
+  <preference name="SplashScreenDelay" value="5000" />
+  <preference name="android-targetSdkVersion" value="28" /> <!--To solve the problem of built for older version. Preference from https://blog.phonegap.com/cli-9-0-0-support-has-been-added-to-phonegap-build-da92fff6d588-->
+  <!--<plugin name="cordova-plugin-x-socialsharing" source="npm" />-->
+</widget>

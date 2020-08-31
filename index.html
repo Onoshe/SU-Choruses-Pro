@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    	<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+        <link rel="stylesheet" type="text/css" href="css/sonyApp.css">
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/sonyAppC.js"></script>
+        <script type="text/javascript" src="js/sonyApp.js"></script>
+        <script type="text/javascript" src="js/sonyAppB.js"></script>
+        <script type="text/javascript" src="js/text-roller.js"></script>
+        <script type="text/javascript">
+        	$(document).on('mobileinit', function(){
+        		$.mobile.defaultPageTransition = 'slidefade';
+        	});
+        	$(document).ready(function(){populateHymnIndexFun()});
+        	$(document).ready(function(){populateAlphaIndexFun()});
+        	$(document).ready(function(){showMyFavs()});
+        	$(document).ready(function(){fadingVerses()});
+        	
+        </script>
+        <script src="js/jquery.mobile-1.4.5.js"></script>
+    </head>
+    <body id="body">
+
+
+<!-- Start of first/Home page -->
+<div data-role="page" id="home" >
+
+<!-- panel -->
+<div data-role="panel" data-display="push" data-count-theme="a" id="nav-panel" id="favouriteSongsList2" style="background-color: #D3D3D3">
+	<!--<h3 id="homePanelHead"> SU Songs<a data-icon="home" href="#" data-rel="close"></h3>-->
+	<ul data-role="listview">
+		<li data-icon="home" ><a id="hPanel-hm" href="#" data-rel="close" >Home</a></li>
+		<hr>
+		<li data-icon="bullets" ><a id="hPanel-SU" href="#page2" >General Index</a></li>
+		<hr>
+		<li data-icon="bullets" ><a id="hPanel-AI" href="#page9" >Alphabetical Index</a></li>
+		<hr>
+		<li data-icon="bullets" ><a id="hPanel-CI" href="#page8" >Classified Index</a></li>
+		<hr>
+		<li data-icon="heart"><a href="#page4" id="hPanel-Fav">My Favourites<span id="homeFavCount">0</span></a></li>
+		<hr>
+		<li data-icon="info"><a href="#page6" id="hPanel-Abt" >About</a></li>
+		<hr>
+		<li data-icon="audio"><a href="#" data-rel="close" id="hPanel-Set" onclick="playHomeSong('res/icon/whatChurchCF.mp3')">We are One in Christ</a></li>
+		<hr>
+		<li data-icon="gear"><a href="#" id="hPanel-Abt" class="ui-state-disabled">My Scripts</a></li>
+		<hr>
+		<div  data-role="collapsible" data-colapsed="true" id="hPanel-Sup">
+			<h4 >Contact Us</h4>
+			<ul data-role="listview">
+				<li data-icon="mail"><a href="mailto:adesung2005@yahoo.co.uk">Send us Feedback:<br>adesung2005@gmail.com</a></li>
+				<li data-icon="phone"><a href="https://api.whatsapp.com/send?phone=2348064205333">Contact us:+2348064205333</a></li>
+			</ul>
+		</div>
+		<hr>
+	</ul>
+</div><!-- /panel -->
+
+	<div data-role="header" data-position="fixed" id="homeHeaderBar">
+		<!--<h1 class="noTextShadow">SU</h1>-->
+		<h1  id="srchInputHomePgCont"><input data-role="none" type="tel" placeholder="&#128269;Chorus No 1 - 709" id="srchInputHomePg"></h1>
+		<a href="#nav-panel" class="ui-btn ui-icon-bars ui-btn-icon-notext" id="homeHeaderIconL">bars</a>
+		<a id="songNoSearchBtn" class="ui-btn ui-icon-search ui-btn-icon-notext" onclick="songNoSearchFun()">search</a>
+	
+	<div class="scrolTextCl">
+	<h3 id="scrolTextID" ><em>Thy Word is a Lamp unto my Feet and a light unto my Path. Ps.119:105</em></h3>
+	</div>
+</div><!-- /header -->
+	<!-- navbar
+	<div data-role="navbar">
+	   	<ul>
+	     <li><a  id="myHome" href="#home" data-icon="home">Home</a></li>
+	     <li><a href="#spashScreen2Page" data-icon="plus" id="addRuns">Add Run</a></li>
+	   	</ul>    
+ 	</div>
+ 	/navbar -->
+<!--<div id="allSearchDiv" allSearchDiv-->
+
+	<!-- The Two former Search Naviation
+ 	<div id="srch-TitleNo" data-role="navbar" style="display: block">
+	   	<ul>
+	   	<li><a class="ui-icon-search ui-btn-icon-right srchTitleNo" id="srch-Title" href="#page2">Search by Title</a></li>
+	   	<li><a class="ui-icon-bullets ui-btn-icon-right srchTitleNo" id="srch-No">Search by Song Number</a></li>
+	   	</ul>     
+ 	</div>
+ 	<div id="srchByNoDiv" class="srchByNoDivClass" data-role="navbar" style="display: block">
+ 		<ul>
+	   	<li><input type="search" placeholder="Search Song By Number" id="srchByNoDivInput"></input><li><a class="ui-icon-search ui-btn-icon-right" id="srchByNoDivBtn" onclick="songNoSearchFun()">Search By Number</a></li>
+	   	</ul>  
+	</div> The Two former Search Naviation -->
+
+<!--127925- 2Notes; 127926- 3Notes; 127775- boldstar; 11088-Normalstar           -->
+<div role="main" class="ui-content" id="homeBody" data-position="fixed">
+
+		<div class="binod" id="ele1">&#127925;</div>
+        <div class="binod" id="ele2">&#11088;</div>
+        <div class="binod" id="ele3">&#127925;</div>
+        <div class="binod" id="ele4">&#127926;</div>
+        <div class="binod" id="ele5">&#11088;</div>
+        <div class="binod" id="ele6">&#127925;</div>
+        <div class="binod" id="ele7">&#127926;</div>
+        <div class="binod" id="ele8">&#127925;</div> 
+
+
+     	<div id="dailyPassDiv">
+     	<p id="dailyPass">“And we know that all things work together for good to them that love God, to them who are the called according to his purpose.” <br>Romans 8:28, KJV</p>
+        </div>
+
+        <div id="songDiscripHome" style="display: block;">
+        <span style="color: seagreen; font-weight: bold; font-size: 18px;">Scripture Union Choruses</span>
+        <hr>
+        This chorus book comprises the three C.S.S.M. Chorus Books: <br>
+		No.1 - 1   to 324 <br>
+		No.2 - 325 to 535 <br>
+		No.3 - 536 to 709
+		</div>
+
+		<br>
+        <div id="homeSongDiv" style="display: none;">
+     	<p id="homeSong"> I don't care what church You belong to <br>
+     		Just as long as for Calvary you stand <br>
+     		If you do then your heart beats as my heart <br>
+     		Your're my brother so give me your hand 
+     		<br>
+     		<audio><source src="whatChurchCF.mp3" type="audio/mp3">Not supported</audio>
+     		<span class="homeSongBtnTogg" id="homeSongBtnPause" style="display: inline-block;" onclick="toggleHomeSong('res/icon/whatChurchCF.mp3')">&#9208;</span>
+     		<span class="homeSongBtnTogg" id="homeSongBtnPlay" style="display: none;" onclick="toggleHomeSong('res/icon/whatChurchCF.mp3')">&#9199;</span>
+     		<span id="homeSongBtnStop">&#10060;</span>
+     		</p>
+     	</div>
+		<div id="homeSongBtnCheck" style="display: none;">1</div>
+</div><!-- /content -->
+
+	<!-- footer -->
+	<div data-role="footer" data-position="fixed" id="footerHm">
+		<!--<div id="exitBtn" onclick="exitFromApp()">&#10006</div>-->
+		<div class="footerBtn" id="footerBtnNew">&#10133</div>
+		<div style="display: none;" id= "srchClassHmDivNew">
+			<div class="srchClassHm" id="srchClassHmTNew">Search by Title</div>
+			<div class="srchClassHm" id="srchClassHmNNew">Search by Number</div>
+		</div>
+	</div>
+	<!-- /footer -->
+</div><!-- /page -->
+
+
+
+
+<!-- Start of second page. Page2- General Index -->
+<div data-role="page" data-position="right" id="page2">
+
+	<div data-role="header" id="pg2Header" data-position="fixed" >
+		<a data-direction="reverse" href="#home"  class="ui-btn ui-icon-home ui-btn-icon-notext" id="pg2HeaderBtnL">back</a>
+		<h1>General Index</h1>
+		<!--<a href="#" data-rel="back" class="ui-btn ui-icon-home ui-btn-icon-notext" id="pg2HeaderBtnR">home</a>-->
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content" id="pg2Main">
+		<form>
+	    <input id="filter-for-listview" data-type="search" Placeholder="	Type to search...">
+		</form>
+		<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview" id="hymnIndices">
+			
+		</ul>
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-position="fixed" id="pg2Footer">
+		<h4>Scripture Union Nigeria</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Start of Third Page --><!-- Song Display Screen -->
+<div data-role="page" id="page3" >
+
+<div data-role="panel" data-position="right" id="hDisplayPanel">
+	<a href="#home" id="toHomeFromSD" class="ui-btn ui-icon-home ui-btn-icon-right panelDesign1">Back to Home</a>
+	<a id="toIndexFromSD" class="ui-btn ui-icon-back ui-btn-icon-right panelDesign1" data-direction="reverse" href="#" data-rel="back">Previous</a>
+	<a href="#page2" id="toGenIndexFromSD" class="ui-btn ui-icon-back ui-btn-icon-right panelDesign1">General Index</a>
+	<a href="#page8" id="toCIndexFromSD" class="ui-btn ui-icon-back ui-btn-icon-right panelDesign1">Classified Index</a>
+    <a href="#" id="add2Favourite" onclick="addFav(); showMyFavs()" class="ui-btn ui-icon-star ui-btn-icon-right panelDesign1" data-rel="close">Add to My Favourite</a>
+    <a href="#page4" id="showMyFavFromSD" class="ui-btn ui-icon-eye ui-btn-icon-right panelDesign1" onclick='colorFavs()'>Show My Favourites</a>
+    <a id="songTune" class="ui-btn ui-icon-audio ui-btn-icon-right panelDesign1 ui-state-disabled" data-rel="close">Play Song Tune</a>
+    
+</div><!-- /panel -->
+
+	<div data-role="header" data-position="fixed" id="pg3Header">
+		<h4 id="hymnNo">Song No 2</h4><a data-direction="reverse" class="ui-btn ui-icon-arrow-l ui-btn-icon-notext" onclick="go2Prev()" id="pg3HeaderBtnL">recycle</a>
+		<div style="display: none;" id="hymnNoIndex">2</div>
+
+		<a href="#hDisplayPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext" id="pg3HeaderBtnR">bars</a>
+
+		<div id="suSongTitle">All, all, all of my heart for Jesus</div>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content" id="pg3Main"> <!-- SCREEN DISPLAY -->
+		<div class="hymnList">
+			<div id="displayHymn">
+				<p>All, all, all of my heart for Jesus,</p>
+				<p>My wonderful Saviour.</p>
+				<p>Just as it is, for ever it's</p>
+				<p>Yes, all of my life for Jesus.</p>
+			</div>
+		</div>
+		<div id="pg3MainSub"> 
+		</div>
+			
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed" id="pg3Footer">
+
+		<a href="#" class="ui-btn ui-btn-inline ui-btn-icon-left" id="prevSongBtn" onclick="prevSong()">&#9194;</a>
+		<a href="#" class="ui-btn ui-btn-inline ui-btn-icon-left" id="nextSongBtn" onclick="nextSong()">&#9193;</a>
+
+		<p style="float:right" id="zoomOutDS" class="zoomDS">+&#128269;</p>
+		<p style="float:right" id="zoomInDS"  class="zoomDS">-&#128269;</p>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+<!-- Start of forth page. My Favourites -->
+<div data-role="page" id="page4">
+
+	<div data-role="header" id="pg4Header">
+		<h1>My Favourites</h1><a data-direction="reverse" href="#" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext" id="pg4HeaderBtnL">back</a>
+		<a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext" id="pg4HeaderBtnR">home</a>
+	</div><!-- /header -->
+	<a href="#" id="clearAllFav" onclick="clearAllFavFun()" class="ui-btn">Clear All Favourites</a>
+	
+
+	<div role="main" class="ui-content" id="pg4Main">
+		<div id='noFavLabel' style="color: blue; font-size: 20px; text-align: center; font-weight: bold;"></div>
+		<div id="favouriteSongsListHead">
+		</div>
+	</div><!-- /Main content -->
+
+	<div data-role="footer" data-position="fixed" id="pg4Footer">
+		<h4>Scripture Union Nigeria</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+
+
+<!-- Start of Fifth Page Settings Page-->
+<div data-role="page" id="page5">
+
+<div data-role="panel" id="menuPanel">
+    <p> Menu Panel! </p>
+</div>
+
+	<div data-role="header">
+		<h1>Settings</h1>
+		<a href="#" data-rel="back" data-direction="reverse" class="ui-btn ui-icon-bars ui-btn-icon-notext">bars</a>
+		<a href="#home" data-direction="reverse" class="ui-btn ui-icon-home ui-btn-icon-notext">home</a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p id="setTest">I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
+		
+		<button id="setBtn">Click Me</button>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>Scripture Union Nigeria</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- Start of Sixt Page- About -->
+<div data-role="page" id="page6">
+
+<div data-role="panel" id="pg6MenuPanel">
+    <p> Menu Panel! </p>
+</div>
+
+	<div data-role="header" id="headerAbout" data-position="fixed">
+		<h1>About</h1>
+		<a id="headerAboutIconL" href="#home" data-direction="reverse" class="ui-btn ui-icon-back ui-btn-icon-notext">back</a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content" id="aboutPageBody">
+		<div id="aboutTopDiv"><h3 id="aboutTop">Scripture Union Choruses <img id="aboutTopImage" alt="Mail" src="res/icon/rotate2.gif"/></h3>
+		</div>
+
+		<div id="aboutText1" class="aboutText">
+		<p>"Speak to one another in Psalms and Hymns and Spiritual Songs, singing and making melody in your heart to the Lord" - Eph.5:19.</p>
+
+		<p>Spiritual Songs have the ability to teach us, and admonish us, and to provoke our heart to worship our Saviour with thankfulness.</p>
+		</div>
+		
+		<div id="aboutText2" class="aboutText">
+		<p>"This app is based on the Scripture Union Chorus book published by Scripture Union (Nigeria) Press and Books Ltd 2015 edition.
+		<br><br>This app features: 
+		<br></p>
+		- Find song by number or by title,<br>
+		  The title is the first line of the song </p>
+
+		- General Index with chorus titles arranged numerically,<br>
+		It is of the three C.S.S.M. Chorus Books: <br>
+		No.1 - 1 to 324 <br>
+		No.2 - 325 to 535 <br>
+		No.3 - 536 to 709 <br>
+		<br>
+		- Alphabetical Index with chorus titles sorted aphabetically.</p>
+		- Classified Index which categorised choruses. </p>
+
+		<p>Frequently used songs can be added to favourite for quick access.</p>
+
+		<p>The 'My Scripts' and 'Play Song Tune' features will be activated in the later premium versions. </p>
+
+		<p>May God's blessings shower on us as we sing songs of praise and worship to Him in Jesus names.</p>
+		</div>
+		
+		
+	</div><!-- /content -->
+
+	<div id="footerAbout" data-role="footer" data-position="fixed">
+		<h4>Scripture Union Nigeria</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Start of Page7. Classified Index -->
+<div data-role="page" data-position="right" id="page7">
+
+	<div data-role="header" id="pg7Header" data-position="fixed">
+		<a data-direction="reverse" href="#page8" class="ui-btn ui-icon-back ui-btn-icon-notext" id="pg7HeaderBtnL">back</a>
+		<h1 id="pg7HeaderTitle">Index Category</h1><a data-direction="reverse" href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext" id="pg7HeaderBtnL">home</a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content" id="pg7Main">
+		
+		<div class="ui-icon" id='p7CIClass' style="display: none;">Assurance</div>
+		<br>
+		<hr>
+		<ul data-role="listview" id="classifiedIndexp7">
+		<hr>				
+		</ul>
+
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-position="fixed" id="pg7Footer">
+		<h4>Scripture Union Nigeria</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+<!-- Start of Page8. Classified Index -->
+<div data-role="page" data-position="right" id="page8">
+
+	<div data-role="header" id="pg8Header" data-position="fixed">
+		<a data-direction="reverse" href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext" id="pg8HeaderBtnL">back</a>
+		<h1>Classified Index</h1><!--<a data-direction="reverse" href="#" data-rel="back" class="ui-btn ui-icon-home ui-btn-icon-notext" id="pg8HeaderBtnR">home</a>-->
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content" id="pg8Main">
+		<br>
+		<hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIAssu" onclick="populateCIAssurance()">Assurance and Certainty</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIBible" onclick="populateCIBible()">Bible (Word of God)</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIChrm" onclick="populateCIChrist()">Christmas</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIConfl" onclick="populateCICon()">Conflict</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CICross" onclick="populateCICross()">Cross</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIForg" onclick="populateCIForg()">Forgiveness</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIFaith" onclick="populateCIFaith()">Faith</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIGosp" onclick="populateCIGosp()">Gospel Call</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIGuid" onclick="populateCIGuid()">Guidance</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIHeav" onclick="populateCIHeav()">Heaven</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIJoy" onclick="populateCIJoy()">Joy</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CILife" onclick="populateCILife()">Life</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CILJe" onclick="populateCILord()">Lord Jesus</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CILove" onclick="populateCILove()">Love of God</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIMiss" onclick="populateCIMiss()">Missionary</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIPraise" onclick="populateCIPraise()">Praise</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIPray" onclick="populateCIPray()">Prayer</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CISalv" onclick="populateCISal()">Salvation</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CISanc" onclick="populateCISan()">Sanctification</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIComing" onclick="populateCISecond()">Second Coming</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIServe" onclick="populateCIServe()">Service</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CISIN" onclick="populateCISIN()">Sin</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIStrength" onclick="populateCIStrength()">Strength</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CISur" onclick="populateCISurr()">Surrender</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIThanks" onclick="populateCIThanks()">Thanksgiving</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIVictory" onclick="populateCIVictory()">Victory</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIWitness" onclick="populateCIWit()">Witness</button><hr>
+		<button class="ui-btn ui-icon-carat-r ui-btn-icon-right p8CIClass" id="p8CIYoung" onclick="populateCIYoung()">Children</button><hr>
+
+
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-position="fixed" id="pg7Footer">
+		<h4>Scripture Union Nigeria</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Start of Page 9. Alhabetical Inndex -->
+<div data-role="page" data-position="right" id="page9">
+
+	<div data-role="header" id="pg9Header" data-position="fixed">
+		<a data-direction="reverse" href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext" id="pg9HeaderBtnL">back</a>
+		<p id="pg9TitleHead">Alphabetical Index</p>
+		<!--<a href="#" data-rel="back" class="ui-btn ui-icon-home ui-btn-icon-notext" id="pg9HeaderBtnR">home</a>-->
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content" id="pg9Main">
+		<form>
+	    <input id="filter-for-listviewPg9" data-type="search" Placeholder="	Type to search...">
+		</form>
+		<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listviewPg9" id="pg9ChorusIndex">
+			
+		</ul>
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-position="fixed" id="pg9Footer">
+		<h4>Scripture Union Nigeria</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+</body>
+</html>
