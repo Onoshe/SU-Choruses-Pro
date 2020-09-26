@@ -261,6 +261,22 @@
 	background-color: #D3D3D3;
 	border:2px solid #FFFFFF; border-radius:10px;
 }
+#homeMyScriptCount{
+	text-shadow: none;
+	margin: none;
+	color: green;
+	font-weight: bold;
+	float: right;
+	min-width: 25px;
+	height: 15px;
+	padding: 3px;
+	padding-bottom: 5px;
+	font-size: 14px;
+	text-align: center;
+	background-color: #D3D3D3;
+	border:2px solid #FFFFFF; border-radius:10px;
+}
+
 .srchClassHm{background-color: blue; width: 150px; margin: 5px; font-weight: bold;
 			text-align: left; line-height: 20px; font-size: 16px;
 			height: 20px; float: right; display: block; margin-left: 100px;
@@ -342,6 +358,8 @@
 #hPanel-Sup{background-color: silver; text-shadow: none;}
 #hPanel-CI{background-color: silver; text-shadow: none;}
 #hPanel-AI{background-color: silver; text-shadow: none;}
+#myScriptHomeDiv{background-color: red; text-shadow: none; color: red;}
+#stopSongTune-Home{background-color: coral; text-shadow: none; color: white; padding-left: 0px;}
 
 #myHome{
 	background-color: #556B2F;
@@ -382,7 +400,7 @@
 #hDisplayPanel{background-color: silver; text-shadow: none; color: white;}
 #nextSongBtn{background-color: #2c4f28; text-shadow: none; color: white; font-weight: bold; font-size: 24px; margin-top: 0.3em; padding: 2px; }
 #prevSongBtn{background-color: #2c4f28; text-shadow: none; color: white; font-weight: bold; font-size: 24px; margin-top: 0.3em; padding: 2px; margin-left: 0.5em; }
-
+#stopSongTune{background-color: coral; text-shadow: none; color: white;}
 
 #toHomeFromSD{background-color: grey; text-shadow: none; color: white; font-weight: bold;} 
 #toIndexFromSD {background-color: grey; text-shadow: none; color: white; font-weight: bold;}
@@ -398,7 +416,7 @@
 #pg4HeaderBtnL{background-color: #2c4f28;}
 #pg4HeaderBtnR{background-color: #2c4f28;}
 #pg4Footer{background-color: #2c4f28; text-shadow: none; color: white;}
-#clearAllFav{background-color: brown; text-shadow: none; color: white;}
+#clearAllFav{background-color: brown; text-shadow: none; color: white; margin-left: 50px; margin-right: 50px; border-radius: 10px;}
 
 #pg9Header{background-color: #2c4f28; text-shadow: none; color: white;}
 #pg9Main{background-image: linear-gradient(#bd9e95, #FFE4C4);}
@@ -406,6 +424,88 @@
 #pg9HeaderBtnR{background-color: #2c4f28;}
 #pg9Footer{background-color: #2c4f28; text-shadow: none; color: white;}
 #pg9TitleHead{text-align: center;}
+
+#pg10Header{background-color: #2c4f28; text-shadow: none; color: white;}
+#pg10Main{ background-image:linear-gradient(#bd9e95, #FFE4C4, #FFFFFF);}
+#pg10HeaderBtnL{background-color: #2c4f28;}
+#pg10HeaderBtnR{background-color: #2c4f28;}
+#pg10Footer{background-color: #2c4f28; text-shadow: none; color: white;}
+#pg10devBtns{background-image:linear-gradient(#FFFFFF, #FFE4C4, #bd9e95);}
+#addMySong{margin-left: 0.8em; background-color: steelblue; text-shadow: none; color: white; font-weight: bold; border:2px solid #FFFFFF; border-radius:10px;}
+#clearMySong{background-color: maroon; text-shadow: none; color: white; font-weight: bold; border:2px solid #FFFFFF; border-radius:10px;}
+#storeMySong{background-color: lime; text-shadow: none; color: white; font-weight: bold; border:2px solid #FFFFFF; border-radius:10px;}
+#undoClearSong{background-color: lightgreen; text-shadow: none; color: white; font-weight: bold; border:2px solid #FFFFFF; border-radius:10px;}
+#pg10TextareaLabel{font-size: 12px; margin-left: 10px;}
+#pg10TitleLabel{font-size: 12px; font-weight: bold; margin-bottom: 0px; margin-left: 10px; text-decoration: underline;}
+#pg10SoloLabel{font-size: 12px; font-weight: bold; margin-bottom: 0px; margin-left: 10px; text-decoration: underline;}
+
+#pg11Header{background-color: #2c4f28; text-shadow: none; color: white;}
+#pg11Main{ background-image:linear-gradient(#bd9e95, #FFE4C4, #FFFFFF);}
+#pg11HeaderBtnL{background-color: #2c4f28;}
+#pg11HeaderBtnR{background-color: #2c4f28;}
+#pg11Footer{background-color: #2c4f28; text-shadow: none; color: white;}
+
+#pg12Header{background-color: #2c4f28; text-shadow: none; color: white;}
+#pg12Main{ background-image:linear-gradient(#bd9e95, #FFE4C4, #FFFFFF);}
+#pg12HeaderBtnL{background-color: #2c4f28;}
+#pg12HeaderBtnR{background-color: #2c4f28;}
+#pg12Footer{background-color: #2c4f28; text-shadow: none; color: white;}
+#page12SongTitle{ text-align:center; background-color:#B0C4DE;	height: 2em; padding: 5px;	color: #006400; font-size: 18px;}
+#page12HeaderTitle {text-align:center; height: 2.5em; line-height: 2.5em;}
+
+.songTitleIndexClass{
+	padding-left: 40px;
+	padding-right: 30px;
+
+}
+#songTitleIndexCont{
+	padding-left: 40px;
+	padding-right: 30px;
+	text-align: left;
+	height: 2em;
+}
+.mySongCreatedCont{
+	list-style-type: none;
+	background-image:radial-gradient(coral, white);
+	padding: 5px;
+	padding-left: 10px;
+	margin-top: 1px;
+	/*height: 10em;*/
+	min-height: 8em;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 80%;
+	border:2px solid #FFFFFF; border-radius:20px;
+	box-shadow: 10px 10px 10px grey;
+}
+
+.pg12SongDisplayCont{
+	list-style-type: none;
+	background-image:radial-gradient(coral, white);
+	padding: 5px;
+	padding-left: 10px;
+	margin-top: 1px;
+	/*height: 10em;*/
+	height: auto;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	line-height: normal;
+	border:2px solid #FFFFFF; border-radius:20px;
+	box-shadow: 10px 10px 10px grey;
+}
+
+#mySongTitle{
+	text-align:center;
+	background-color:#B0C4DE;
+	height: 2em;
+	padding: 5px;
+	color: #006400;
+	font-size: 18px;
+}
+
+
 
 #aboutPageBody{
 	background-image: linear-gradient(#bd9e95, #FFE4C4, #ffffff);

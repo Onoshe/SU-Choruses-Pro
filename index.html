@@ -20,6 +20,8 @@
         	$(document).ready(function(){populateAlphaIndexFun()});
         	$(document).ready(function(){showMyFavs()});
         	$(document).ready(function(){fadingVerses()});
+
+        	$(document).ready(function(){populateMyAddedSongs()});
         	
         </script>
         <script src="js/jquery.mobile-1.4.5.js"></script>
@@ -36,19 +38,29 @@
 	<ul data-role="listview">
 		<li data-icon="home" ><a id="hPanel-hm" href="#" data-rel="close" >Home</a></li>
 		<hr>
-		<li data-icon="bullets" ><a id="hPanel-SU" href="#page2" >General Index</a></li>
+		<li data-icon="bullets" ><a id="hPanel-SU" href="#page2" data-prefetch="true">General Index</a></li>
 		<hr>
-		<li data-icon="bullets" ><a id="hPanel-AI" href="#page9" >Alphabetical Index</a></li>
+		<li data-icon="bullets" ><a id="hPanel-AI" href="#page9" data-prefetch="true">Alphabetical Index</a></li>
 		<hr>
-		<li data-icon="bullets" ><a id="hPanel-CI" href="#page8" >Classified Index</a></li>
+		<li data-icon="bullets" ><a id="hPanel-CI" href="#page8" data-prefetch="true">Classified Index</a></li>
 		<hr>
-		<li data-icon="heart"><a href="#page4" id="hPanel-Fav">My Favourites<span id="homeFavCount">0</span></a></li>
+		<li data-icon="heart"><a href="#page4" id="hPanel-Fav" data-prefetch="true">My Favourites<span id="homeFavCount">0</span></a></li>
 		<hr>
 		<li data-icon="info"><a href="#page6" id="hPanel-Abt" >About</a></li>
 		<hr>
 		<li data-icon="audio"><a href="#" data-rel="close" id="hPanel-Set" onclick="playHomeSong('res/icon/whatChurchCF.mp3')">We are One in Christ</a></li>
 		<hr>
-		<li data-icon="gear"><a href="#" id="hPanel-Abt" class="ui-state-disabled">My Scripts</a></li>
+		<div style="display: none;" id="stopSongTune-HomeDiv">
+		<li data-icon="audio"><a href="#" class="ui-btn ui-icon-delete ui-btn-icon-right" id="stopSongTune-Home" onclick="stopSongTune()" data-rel="close" >Stop current playing song</a></li>
+		<hr>
+		</div>
+		<div  data-role="collapsible" data-colapsed="true" id="myScriptHomeDiv">
+			<h4 id="myScriptHome" >My Scripts</h4>
+			<ul data-role="listview">
+				<li data-icon="gear" id="createMyScriptHome"><a href="#page10">Create Script</a></li>
+				<li data-icon="eye" id="viewMyyScriptHome"><a href="#page11" data-prefetch="true">View My Scripts<span id="homeMyScriptCount">0</span></a></li>
+			</ul>
+		</div>
 		<hr>
 		<div  data-role="collapsible" data-colapsed="true" id="hPanel-Sup">
 			<h4 >Contact Us</h4>
@@ -179,21 +191,26 @@
 <div data-role="page" id="page3" >
 
 <div data-role="panel" data-position="right" id="hDisplayPanel">
-	<a href="#home" id="toHomeFromSD" class="ui-btn ui-icon-home ui-btn-icon-right panelDesign1">Back to Home</a>
+	<a href="#home" id="toHomeFromSD" class="ui-btn ui-icon-home ui-btn-icon-right panelDesign1" data-prefetch="true">Back to Home</a>
 	<a id="toIndexFromSD" class="ui-btn ui-icon-back ui-btn-icon-right panelDesign1" data-direction="reverse" href="#" data-rel="back">Previous</a>
-	<a href="#page2" id="toGenIndexFromSD" class="ui-btn ui-icon-back ui-btn-icon-right panelDesign1">General Index</a>
-	<a href="#page8" id="toCIndexFromSD" class="ui-btn ui-icon-back ui-btn-icon-right panelDesign1">Classified Index</a>
+	<a href="#page2" id="toGenIndexFromSD" class="ui-btn ui-icon-back ui-btn-icon-right panelDesign1" data-prefetch="true">General Index</a>
+	<a href="#page8" id="toCIndexFromSD" class="ui-btn ui-icon-back ui-btn-icon-right panelDesign1" data-prefetch="true">Classified Index</a>
     <a href="#" id="add2Favourite" onclick="addFav(); showMyFavs()" class="ui-btn ui-icon-star ui-btn-icon-right panelDesign1" data-rel="close">Add to My Favourite</a>
     <a href="#page4" id="showMyFavFromSD" class="ui-btn ui-icon-eye ui-btn-icon-right panelDesign1" onclick='colorFavs()'>Show My Favourites</a>
-    <a id="songTune" class="ui-btn ui-icon-audio ui-btn-icon-right panelDesign1 ui-state-disabled" data-rel="close">Play Song Tune</a>
-    
+    <a id="songTune" onclick="playSong()" class="ui-btn ui-icon-audio ui-btn-icon-right panelDesign1" data-rel="close">Play Song Tune</a>
+    <a id="stopSongTune" onclick="stopSongTune()" class="ui-btn ui-icon-delete ui-btn-icon-right panelDesign1" data-rel="close" style="visibility: hidden;">Stop current playing tune</a>
+    <audio id="myaudioID" src="">
+  		Your browser does not support the audio element.
+	</audio>
+	<div style="display: none;" id="tuneControl">0</div>
+	<div style="display: none;" id="tuneControl2">0</div>
 </div><!-- /panel -->
 
 	<div data-role="header" data-position="fixed" id="pg3Header">
-		<h4 id="hymnNo">Song No 2</h4><a data-direction="reverse" class="ui-btn ui-icon-arrow-l ui-btn-icon-notext" onclick="go2Prev()" id="pg3HeaderBtnL">recycle</a>
+		<h4 id="hymnNo">Song No 2</h4><a data-direction="reverse" class="ui-btn ui-icon-back ui-btn-icon-notext" data-rel="back" href="#" id="pg3HeaderBtnL">back</a>
 		<div style="display: none;" id="hymnNoIndex">2</div>
 
-		<a href="#hDisplayPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext" id="pg3HeaderBtnR">bars</a>
+		<a href="#hDisplayPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext" id="pg3HeaderBtnR" onclick="checkSongTune()">bars</a>
 
 		<div id="suSongTitle">All, all, all of my heart for Jesus</div>
 	</div><!-- /header -->
@@ -315,7 +332,7 @@
 
 		<p>The 'My Scripts' and 'Play Song Tune' features will be activated in the later premium versions. </p>
 
-		<p>May God's blessings shower on us as we sing songs of praise and worship to Him in Jesus names.</p>
+		<p>May God's blessings shower on us as we sing songs of praise and worship to Him in Jesus' name.</p>
 		</div>
 		
 		
@@ -423,6 +440,122 @@
 	<div data-role="footer" data-position="fixed" id="pg9Footer">
 		<h4>Scripture Union Nigeria</h4>
 	</div><!-- /footer -->
-</div><!-- /page -->
+</div><!-- /page9 -->
+
+<!-- Start of Page10 Create My SCripts-->
+<div data-role="page" id="page10" >
+
+<!--
+<div data-role="panel" data-position="right" id="page10Panel">
+	<a href="#home" id="toHomeFromCreate" class="ui-btn ui-icon-home ui-btn-icon-right panelDesign1">Back to Home</a>
+	<a href="#page2" id="toIndexFromSD" class="ui-btn ui-icon-back ui-btn-icon-right panelDesign1">Back to Songs Index</a>
+    
+</div> --/panel -->
+
+	<div data-role="header" data-position="fixed" id="pg10Header">
+		<h4 id="createHeading">Create My Song Scripts</h4><a data-direction="reverse" href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext" id="pg10HeaderBtnL">home</a>
+
+		<a href="#page11" class="ui-btn ui-icon-eye ui-btn-icon-notext" id="pg10HeaderBtnR" onclick="populateMyAddedSongs()">eye</a>
+		<div id="mySongTitle">My Song Title Display</div>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content" id="pg10Main"> <!-- SCREEN DISPLAY -->
+		<div id="mySongCreatedContP">
+			<div class="mySongCreatedCont">
+				<div id="mySongCreated">
+					<p> My Song Solo Display</p>
+					
+				</div>
+			</div>
+		</div>
+		<br>
+		<hr>
+		<div class="createSongCont">
+			<form id="createSong">
+				<label id="pg10TitleLabel">My Song Title</label>
+				<input type="text" name="text-3" data-clear-btn="true" id="writeTitle" placeholder="Type your song title here">
+				<label for="textarea-1" id="pg10SoloLabel">My Song Solo</label>
+				<div id="pg10TextareaLabel">
+					For better display of my song Solo, add colon ":" at the beginning of each line of the song. E.g: <br>
+					:I don't care what church You belong to <br>
+     				:Just as long as for Calvary you stand, etc <br>
+				</div>
+				<textarea name="textarea-1" id="writeSolo" placeholder="Type your song solo here"></textarea>
+			</form>
+			<hr>
+		</div>
+		<div id="dummyDiv" style="display: none;">
+			<div class="dummyClass"></div>
+			<div class="dummyClass"></div>
+			<div class="dummyClass"></div>
+			<div class="dummyClass"></div>
+		</div>
+			
+	</div><!-- /content -->
+		
+	<div data-role="footer" data-position="fixed" id="pg10Footer">
+		<div id="pg10devBtns">
+			<a href="#" class="ui-btn ui-btn-inline ui-icon-eye ui-btn-icon-left" id="addMySong">Preview</a>
+			<a href="#" class="ui-btn ui-btn-inline ui-icon-delete ui-btn-icon-left" id="clearMySong" onclick="clearMySong()">Clear</a>
+			<a href="#" class="ui-btn ui-btn-inline ui-icon-recycle ui-btn-icon-left" id="undoClearSong" onclick="recallMySong()">Undo</a>
+			<a href="#" class="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left" id="storeMySong" onclick="addMySong()">Save</a>
+			<!--<a href="#" class="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left" id="revContents" >RevCont</a>-->
+		</div>
+		<h3>Scripture Union Nig</h3>
+	</div><!-- /footer -->
+</div><!-- /page10 -->
+
+<!-- Start of Page 11- MySongsIndex -->
+<div data-role="page" id="page11" >
+
+	<div data-role="header" id="pg11Header">
+		<a data-direction="reverse" href="#page10" class="ui-btn ui-icon-back ui-btn-icon-notext" id="pg11HeaderBtnL">back</a>
+		<h1>My Songs Index</h1>
+		<a href="#page12" class="ui-btn ui-icon-eye ui-btn-icon-notext" id="pg11HeaderBtnR">bars</a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content" id="pg11Main">
+		<form>
+	    <input id="filter-for-listview-pg11" data-type="search" Placeholder="	Type to search...">
+		</form>
+		<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview-pg11" id="mySongIndices">
+			
+		</ul>
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-position="fixed" id="pg11Footer">
+		<h4>Scripture Union Nig</h4>
+	</div><!-- /footer -->
+</div><!-- /page11 -->
+
+<!-- Start of Page12 My Songs Display Screen-->
+<div data-role="page" id="page12" >
+
+	<div data-role="header" data-position="fixed" id="pg12Header">
+		<div id="page12HeaderTitle">My Added Song View</div><a data-direction="reverse" href="#page11" class="ui-btn ui-icon-back ui-btn-icon-notext" id="pg9HeaderBtnL">back</a>
+
+		<div id="page12SongTitle">Song Title</div>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content" id="pg12Main"> <!-- SCREEN DISPLAY -->
+		<div class="pg12SongDisplayCont">
+			<div id="pg12SongDisplay"> Song Solo
+			</div>
+		</div>
+
+		<!--
+		<a href="#" class="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left" id="getContent" on>Get Content()</a>
+		<a href="#" class="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left" id="fMySong" on>Format()</a>
+		-->
+
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed" id="pg12Footer">
+		<h4>Scripture Union Nigeria</h4>
+	</div><!-- /footer -->
+</div><!-- /page12 -->
+
+
+
 </body>
 </html>

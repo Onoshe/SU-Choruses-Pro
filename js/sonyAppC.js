@@ -116,7 +116,7 @@ a92=`Jesus is the Way, the only Way`
 a93=`Jesus, Jesus, is our song today`
 a94=`Jesus knows all about our struggles`
 a95=`Jesus, Lord, I come to Thee, grace has conquered wondrously`
-a96=`“Jesus," Oh, how sweet the Name`
+a96=`Jesus, Oh, how sweet the Name`
 a97=`Jesus wept and died for me`
 a98=`Just as I am, young, strong and free`
 a99=`Just now, your doubtings give o'er`
@@ -207,7 +207,7 @@ a183=`The Lord hath need of me`
 a184=`The old, old story, it is ever new`
 a185=`There is none other Name, there is none other Name`
 a186=`There is only one thing matters`
-a187=`here is power, power, wonder-working power`
+a187=`There is power, power, wonder-working power`
 a188=`There'Il be no sorrow there`
 a189=`There's a fight to be fought, and a race to be run`
 a190=`The wages of sin is death, the wages of sin is death`
@@ -947,7 +947,7 @@ a588=`Heavenly Father, hear me now `
 a583=`Help me dear Lord, to find some heart that's broken `
 a282=`Help me, 0 Lord, Thy Word to read `
 a585=`Here is my Lamp by which I see the way to God `
-a187=`here is power, power, wonder-working power `
+a187=`There is power, power, wonder-working power `
 a692=`Here we come with gladness `
 a53=`He's a wonderful Saviour to me `
 a54=`He's coming for me, He's coming for me `
@@ -1538,7 +1538,7 @@ a4=`
 <p>All power is given unto Me; </p>
 <p>All power is given unto Me; </p>
 <p>Go ye into all the world and preach the Gospel, </p>
-<p>And 10, I am with you alway. </p>
+<p>And lo, I am with you alway. </p>
 `
 a5=`
 <p>All the way to Calvary, He went for me,</p>
@@ -1549,7 +1549,7 @@ a5=`
  a6=`
 <p>"All the world for Jesus," let the chorus ring; </p>
 <p>"All the world for Jesus," crown Him King; </p>
-<p>"All the world for Jesus," Jet the watchword be. </p>
+<p>"All the world for Jesus," let the watchword be. </p>
 <p>Forward go in Jesus' Name to victory. </p>
 `
 
@@ -1571,7 +1571,7 @@ a9=`
 <p>Even so must the Son of Man be lifted up; </p>
 <p>That whosoever believeth, believeth in Him </p>
 <p>Should not perish, should not perish, </p>
-<p>But have eternal life, but have etemallife.</p>
+<p>But have eternal life, but have etenal life.</p>
 `
 a10=`
 <p>Behold, I stand, I stand at the door and knock; </p>
@@ -1580,7 +1580,7 @@ a10=`
 `
 a11=`
 <p>Be it known unto you, be it known unto you, that through </p>
-<p>this Man Christ Jescs is preached unto you the forgiveness </p>
+<p>this Man Christ Jesus is preached unto you the forgiveness </p>
 <p>of sins, the forgiveness of sins, that through this Man is </p>
 <p>preached the forgiveness of sins. </p>
 `
@@ -1628,7 +1628,7 @@ a17=`
 `
 a18=`
 <p>Cleanse me from my sin, Lord, </p>
-<p>Put Thy power within. Lord, </p>
+<p>Put Thy power within Lord, </p>
 <p>Take me as I am, Lord, </p>
 <p>And make me all Thine own. </p>
 <p>Keep me day by day, Lord, </p>
@@ -1650,7 +1650,7 @@ a20=`
 <p>Come, follow the King, come, follow the King, </p>
 <p>And struggle, by noble endeavour, </p>
 <p>To conquer the foe in the might of the Lord, </p>
-<p>W'hose kingdom endureth for ever. </p>
+<p>Whose kingdom endureth for ever. </p>
 <p>Enlistment of others be eager to seek, </p>
 <p>Stand shoulder to shoulder, the strong help the weak, </p>
 <p>A word of good cheer to the fainthearted speak, </p>
@@ -1748,7 +1748,7 @@ a35=`
 `
 a36=`
 <p>Give me a heart like Thine, </p>
-<p>Give ne a heart like Thine, </p>
+<p>Give me a heart like Thine, </p>
 <p>By Thy wonderful power and Thy grace every hour, </p>
 <p>Give me a heart like Thine. </p>
 `
@@ -1765,7 +1765,7 @@ a38=`
 <p>Glory to Jesus, and praise evermore. </p>
 `
 a39=`
-<p>God commends His love­</p>
+<p>God commends His love­- </p>
 <p>Greater could not be; </p>
 <p>While I was a sinner, </p>
 <p>Jesus died for me. </p>
@@ -1776,7 +1776,7 @@ a39=`
 <p>Thus, where sin abounded, </p>
 <p>Grace did more abound; </p>
 <p>And where death was reigning, </p>
-<p>Life in Christ' I found. </p>
+<p>Life in Christ I found. </p>
 <p>Jesus, Son of God, </p>
 <p>Now Thy grace I see; </p>
 <p>Thou who lovedst the sinner, </p>
@@ -1829,10 +1829,10 @@ a45=`
 a46=`
 <p>Happy, happy, singing all the way, </p>
 <p>Happy all the day; </p>
-<p>Happy, happy, happy in the love of Jesus, </p>
+<p>Happy, happy, happy in the love of Jesus. </p>
 `
 a47=`
-<p>He came unto Hisown and His own received Him not; </p>
+<p>He came unto His own and His own received Him not; </p>
 <p>He came unto His own and His own received Him not; </p>
 <p>But as many as received Him, as many as received Him, </p>
 <p>To them gave He the power to become the sons of GOd. </p>
@@ -1841,13 +1841,13 @@ a48=`
 <p>He can break every fetter, </p>
 <p>He can break every fetter, </p>
 <p>He can break every fetter, </p>
-<p>He can Set you free. </p>
+<p>He can set you free. </p>
 `
 a49=`
 <p>He did it for me, He did it for me, </p>
 <p>A sinner as guilty as ever could be; </p>
 <p>Oh, how I love Him, now that I see </p>
-<p>He SUffered, He died, and He did it for me. </p>
+<p>He Suffered, He died, and He did it for me. </p>
 `
 a50=`
 <p>He did not come to judge the world, </p>
@@ -1889,7 +1889,7 @@ a55=
 <p>Hath everlasting life, hath everlasting life,</p>
 <p>And shall not come into condemnation,</p>
 <p>shall not come into condemnation,</p>
-<p>But is passed from deaths is passed from</p>
+<p>But is passed from death, is passed from</p>
 <p>death unto life.</p>
 `
 a56=
@@ -1937,7 +1937,7 @@ a61=
 a62=
 `
 <p>Ho, all ye thirsty, come  to the waters.</p>
-<p>Ye, with no money, come buy ye and ear;</p>
+<p>Ye, with no money, come buy ye and eat;</p>
 <p>Why do ye labour, spending for nothing?</p>
 <p>Hearken to Me and eat that which is good.</p>
 `
@@ -1958,7 +1958,7 @@ a65=
 <p>I am not ashamed of the Gospel of Christ:</p>
 <p>for it is the power of God,</p>
 <p>The power of God unto salvation to </p>
-<p>everyone that believeth,</p>
+<p>everyone that believeth.</p>
 `
 a66=
 `
@@ -2098,7 +2098,7 @@ a83=
 `
 <p>It is not try, but trust;</p>
 <p>It is not faint, but fight;</p>
-<p>"Tis not" do right" because I must,</p>
+<p>'Tis not "do right" because I must,</p>
 <p>But right because 'tis right.</p>
 <p>I must not trust myself,</p>
 <p>Or I shall surely fall,</p>
@@ -2123,11 +2123,11 @@ a85=
 a86=
 `
 <p>I will come to Jesus, right away, right away;</p>
-<p>"Tis His Spirit calls me, I obey.</p>
+<p>'Tis His Spirit calls me, I obey.</p>
 <p>Jesus will receive me,</p>
 <p>He will never leave me,</p>
 <p>I will come to Jesus, right away, right away,</p>
-<p>I will 'Come to Jesus, right away.</p>
+<p>I will Come to Jesus, right away.</p>
 `
 a87=
 `
@@ -2140,7 +2140,7 @@ a88=
 `
 <p>Jesus first, Jesus last, and Jesus all along,</p>
 <p>In our work, in our play, and in our song;</p>
-<p>In the da-rkness, in the light,</p>
+<p>In the darkness, in the light,</p>
 <p>Peaceful times, or in the fight,</p>
 <p>I am safe and all is right;</p>
 <p>For Jesus never, never fails,</p>
@@ -2149,7 +2149,7 @@ a88=
 a89=
 `
 <p>Jesus is a wondrous Saviour, He is all in all to me,</p>
-<p>Al my sins have been forgiven through His </p>
+<p>All my sins have been forgiven through His </p>
 <p>death upon the tree; </p>
 <p>He will help me, guide me, keep me,</p>
 <p>Till in Heav'n His face I see.</p>
@@ -2173,7 +2173,7 @@ a92=
 `
 <p>Jesus is the Way, the only Way;</p>
 <p>Lovingly He calls us, so the Scriptures say:</p>
-<p>Whosoever will, let him come todav;</p>
+<p>Whosoever will, let him come today;</p>
 <p>The 'blessed Jesus is the only Way:</p>
 `
 a93=
@@ -2192,8 +2192,8 @@ a94=
 `
 <p>Jesus knows all about our struggles;</p>
 <p>He will guide till the day is done:</p>
-<p>There's not a friend like the lowly Jesus</p>
-<p>No, not one!" No, not one! '</p>
+<p>There's not a friend like the lowly Jesus,</p>
+<p>No, not one! No, not one! </p>
 `
 a95=
 `
@@ -2238,7 +2238,7 @@ a100=`
 `
 a101=`
 <p>Keep in touch with Jesus, Jesus all the way;</p>
-<p>He from sin bath freed us, freed us from its sway;</p>
+<p>He from sin hath freed us, freed us from its sway;</p>
 <p>Keep in touch with Jesus,</p>
 <p>He from Satan frees us,</p>
 <p>Keep in touch with Jesus all the way.</p>
@@ -2264,7 +2264,7 @@ a104=`
 <p>Faith in the night as well as the day.</p>
 `
 a105=`
-<p>Lean on His arms, trusting in His love'</p>
+<p>Lean on His arms, trusting in His love;</p>
 <p>Lean on His arms, all His mercies prove;</p>
 <p>Lean on His arms, looking home above; </p>
 <p>Just lean on the Saviour's arms.</p>
@@ -2286,7 +2286,7 @@ a108=`
 <p>Lift up your eyes, and look on the fields,</p>
 <p>Lift up your eyes, and look on the fields</p>
 <p>They're white already to harvest ,</p>
-<p>While already to harvest.</p>
+<p>White already to harvest.</p>
 <p>Pray ye, therefore, the Lord of the harvest</p>
 <p>Pray ye, therefore, the Lord of the harvest:</p>
 <p>That He will send forth labourers into His harvest.</p>
@@ -2402,7 +2402,7 @@ a126=`
 <p>Nothing less than the best.</p>
 `
 a127=`
-<p>Not to the, strong is the battle,</p>
+<p>Not to the strong is the battle,</p>
 <p>Not to the swift is the race;</p>
 <p>Yet to the true and the faithful,</p>
 <p>Victory is promised through grace.</p>
@@ -2572,7 +2572,7 @@ a153=`
 a154=`
 <p>Rivers of living water, rivers of life so free,</p>
 <p>Flowing from Thee, my Saviour - </p>
-<p>send now the rivers through me us</p>
+<p>send now the rivers through me</p>
 `
 a155=`
 <p>Rouse then, Christians, rally for the Bible!</p>
@@ -2630,7 +2630,7 @@ a163=`
 `
 a164=`
 <p>Singing, working, loving Jesus:</p>
-<p>That is how, .as days go by,</p>
+<p>That is how, as days go by,</p>
 <p>We are surely, surely getting ready</p>
 <p>To behold, to behold,</p>
 <p>To behold Him in the sky.</p>
@@ -2735,7 +2735,7 @@ a179=`
 <p>The best for God, the best for God-</p>
 <p>We want to be the very, very best for God;</p>
 <p>It's the only thing worth being, it's the only life worth living;</p>
-<p>So we'll live it, and we'll be it-the best for God,</p>
+<p>So we'll live it, and we'll be it-the best for God.</p>
 `
 a180=`
 <p>“The entrance of Thy Words giveth light,"</p>
@@ -2785,7 +2785,7 @@ a185=`
 a186=`
 <p>There is only one thing matters, in this passing world of sin,</p>
 <p>That our lives should tell for Jesus, be of some account for Him;</p>
-<p>Let us then be up and doing, strong tn. faith and scorning fear,</p>
+<p>Let us then be up and doing, strong in faith and scorning fear,</p>
 <p>Trusting Him to keep us faithful in His service here.</p>
 `
 a187=`
@@ -2822,7 +2822,7 @@ a191=`
 <p>Till every tongue confess Him through the whole wide world.</p>
 `
 a192=`
-<p>The, Word was made flesh and tabernacled among us,</p>
+<p>The Word was made flesh and tabernacled among us,</p>
 <p>And we beheld His glory, full of grace and truth,</p>
 <p>Full of grace and truth.</p>
 `
@@ -2845,12 +2845,12 @@ a193=`
 <p>And art gone up on high, Lord.</p>
 `
 a194=`
-<p>This' is a faithful saying,</p>
+<p>This is a faithful saying,</p>
 <p>And worthy of all acceptation,</p>
 <p>That Christ Jesus came into the world,</p>
 <p>That Christ Jesus came into the world,</p>
 <p>That Christ Jesus came into the world</p>
-<p>To 'save, to save sinners.</p>
+<p>To save, to save sinners.</p>
 `
 a195=`
 <p>This same Jesus shall return again;</p>
@@ -2895,7 +2895,7 @@ a200=`
 a201=`
 <p>To the uttermost He saves,</p>
 <p>To the uttermost He saves;</p>
-<p>Will you now believe and His love receiver</p>
+<p>Will you now believe and His love receive</p>
 <p>To the uttermost He saves.</p>
 `
 a202=`
@@ -2960,7 +2960,7 @@ a209=`
 `
 a210=`
 <p>We shall conquer all through the blood of Jesus;</p>
-<p>Trusting in His Word He will ne'er deceive US;</p>
+<p>Trusting in His Word He will ne'er deceive us;</p>
 <p>He will lead us onward, bright will be our pathway,</p>
 <p>Joyfully we'll march to the better land.</p>
 `
@@ -3163,7 +3163,7 @@ a241=`
 <p>My Saviour's affections are always the same.</p>
 `
 a242=`
-<p>'Tis not the win of your Father which is in Heaven,</p>
+<p>'Tis not the will of your Father which is in Heaven,</p>
 <p>‘Tis not the will of your Father which is in Heaven,</p>
 <p>That one of these little ones perish, perish, perish,</p>
 <p>That one of these little ones perish, no, no, not one,</p>
@@ -3320,7 +3320,7 @@ a264=`
 <p>The Victor over sin!</p>
 <p>His blood can cleanse and keep us pure,</p>
 <p>His love for ever will endure,</p>
-<p>He's coming soon, of this we're surel</p>
+<p>He's coming soon, of this we're sure!</p>
 <p>Our glorious King!</p>
 `
 a265=`
@@ -3331,7 +3331,7 @@ a265=`
 `
 a266=`
 <p>Unto Him that loved us, and washed us from our sins in His own blood,</p>
-<p>And bath made us kings and priests unto God and His Father;</p>
+<p>And hath made us kings and priests unto God and His Father;</p>
 <p>To Him be glory, be glory and dominion, for ever and ever.</p>
 <p>Amen.</p>
 `
@@ -3353,7 +3353,7 @@ a269=`
 <p>High as the heaven above,</p>
 <p>Deep, deep as the deepest sea,</p>
 <p>Is my Saviour's love.</p>
-<p>I, though so u–nworthy,</p>
+<p>I, though so unworthy,</p>
 <p>Still am a child of His care;</p>
 <p>For His Word teaches me</p>
 <p>That His love reaches me</p>
@@ -3363,7 +3363,7 @@ a270=`
 <p>I'm Iist'ning in, I'm list'ning in,</p>
 <p>To what God says about my sin;</p>
 <p>The way of life He makes so plain­</p>
-<p>Repent! Believe I Be born again!</p>
+<p>Repent! Believe! Be born again!</p>
 `
 a271=`
 <p>Singing, singing, singing all the day, </p>
@@ -3485,7 +3485,7 @@ a284=`
 `
 a285=`
 <p>Kept by the Pow'r of God, </p>
-<p>Kept by the .Pow'r of God, </p>
+<p>Kept by the Pow'r of God, </p>
 <p>Day by day, </p>
 <p>Come what may, </p>
 <p>Kept by the Pow'r of God. </p>
@@ -3517,7 +3517,7 @@ a289=`
 <p>There is joy, there is joy, </p>
 <p>There is joy in the presence of the angels </p>
 <p>Over one, over one, </p>
-<p>Over one sinner that.repenteth. </p>
+<p>Over one sinner that repenteth. </p>
 `
 a290=`
 <p>Keep shining, keep shining, and never grow dim, </p>
@@ -3577,14 +3577,14 @@ a296=`
 <p>Jesus, supreme in my heart. </p>
 `
 a297=`
-<p>The perfect friend is one who knows the worst about' you, </p>
+<p>The perfect friend is one who knows the worst about you, </p>
 <p>And loves you just the same: </p>
 <p>There's only One Who loves like that, </p>
 <p>And Jesus is His Name, His wonderful, wonderful Name. </p>
 `
 a298=`
 <p>I'm not too young to come to Jesus, </p>
-<p>For He loves a little child; . </p>
+<p>For He loves a little child;  </p>
 <p>And I need Him and He needs me, </p>
 <p>And, oh! how happy we shall be </p>
 <p>If I come now, </p>
@@ -3594,7 +3594,7 @@ a299=`
 <p>How greatly Jesus must have loved me, </p>
 <p>To bear my sins, </p>
 <p>To bear my sins, </p>
-<p>In His Body on the Treel </p>
+<p>In His Body on the Tree! </p>
 `
 a300=`
 <p>Jesus, Jesus, Jesus! </p>
@@ -3603,14 +3603,14 @@ a300=`
 <p>Come to know its worth? </p>
 <br>
 <p>Oh! the sinful sorrow, </p>
-<p>Ohl the strangest shame, </p>
+<p>Oh! the strangest shame, </p>
 <p>That I saw no beauty </p>
 <p>In that sacred Name. </p>
 <br>
 <p>Never found the mystery </p>
 <p>In that simple word, </p>
 <p>Jesus, Jesus, Jesus, </p>
-<p>Saviour, Lover-Lordl </p>
+<p>Saviour, Lover-Lord! </p>
 <br>
 <p>Jesus, Jesus, Jesus! </p>
 <p>Loved me in my shame; </p>
@@ -3649,8 +3649,8 @@ a305=`
 <p>Keeps me singing as I go. </p>
 `
 a306=`
-<p>Love is like.the sunshine, warm and bright; </p>
-<p>Love will life the heavy load, and make it light: </p>
+<p>Love is like the sunshine, warm and bright; </p>
+<p>Love will lift the heavy load, and make it light: </p>
 <p>God is Love, and if He lives in you, </p>
 <p>The sunlight of His love will come a-shining through, </p>
 <p>a-shining through. </p>
@@ -3659,8 +3659,8 @@ a307=`
 <p>To Calvary, to Calvary, </p>
 <p>My sinful soul I bring, </p>
 <p>And claim full cleansing in His blood, </p>
-<p>That fountain where the'Iove of God </p>
-<p>Finds its eternal spring, </p>
+<p>That fountain where the love of God </p>
+<p>Finds its eternal spring. </p>
 `
 a308=`
 <p>Fear thou not, for I am with thee; </p>
@@ -3680,7 +3680,7 @@ a310=`
 <p>This one thing I do, </p>
 <p>Forgetting those things which are behind, </p>
 <p>And reaching forth unto those things which are before, </p>
-<p>I press toward the mark for the prize of the, high calling </p>
+<p>I press toward the mark for the prize of the high calling </p>
 <p>Of God in Christ Jesus. </p>
 `
 a311=`
@@ -3691,7 +3691,7 @@ a311=`
 `
 a312=`
 <p>Mine are the hands to do the work; </p>
-<p>'My feet shall run for Thee; </p>
+<p>My feet shall run for Thee; </p>
 <p>My lips shall sound the glorious news: </p>
 <p>Lord, here am I; send me. </p>
 `
@@ -3712,7 +3712,7 @@ a315=`
 <p>Lord, I have searched in vain </p>
 <p>For joy and peace and rest; </p>
 <p>I've found them not in this bright world: </p>
-<p>Saviour, I need Thee-Gild's Best. </p>
+<p>Saviour, I need Thee- God's Best. </p>
 `
 a316=`
 <p>Lay up treasure in Heav'n, life will pass away; </p>
@@ -3844,9 +3844,9 @@ a333=`
 <p>Even me, even me. </p>
 `
 a334=`
-<p>Speak, Lord, for Thy servant heareth; speak just now </p>
+<p>Speak, Lord, <em>for</em> Thy servant heareth; speak just now </p>
 <p>Some message to meet my need, which Thou only dost know; </p>
-<p>Speak now through-Thy holy Word, and make me see</p>
+<p>Speak now through Thy holy Word, and make me see</p>
 <p>Some wonderful truth Thou hast to show to me. </p>
 `
 a335=`
@@ -3865,9 +3865,9 @@ a336=`
 <p>He must triumph, He must reign! </p>
 `
 a337=`
-<p>The Lord bath done great things for us, </p>
 <p>The Lord hath done great things for us, </p>
-<p>The Lord bath done great things for us, </p>
+<p>The Lord hath done great things for us, </p>
+<p>The Lord hath done great things for us, </p>
 <p>Whereof we are glad. </p>
 `
 a338=`
@@ -3902,7 +3902,7 @@ a341=`
 a342=`
 <p>“As Moses lifted up the serpent in the wilderness, even </p>
 <p>so must the Son of Man be lifted up: that whosoever </p>
-<p>believeth in Him should not perish, but have everlasting life." . </p>
+<p>believeth in Him should not perish, but have everlasting life." </p>
 `
 a343=`
 <p>Jesus suffered so, </p>
@@ -4065,7 +4065,7 @@ a363=`
 `
 a364=`
 <p>Joy, wonderful joy, </p>
-<p>The joy of Christ in met </p>
+<p>The joy of Christ in me </p>
 <p>Joy, wonderful joy, </p>
 <p>Through all eternity!</p>
 <p>Love as wide as the heavens, </p>
@@ -4101,9 +4101,9 @@ a368=`
 <p>Love lifted me! Love lifted me! </p>
 <p>When no one but Christ could help, </p>
 <p>Love lifted me! </p>
-<p>Love lifted me! Love lifted met </p>
+<p>Love lifted me! Love lifted me </p>
 <p>When no one but Christ could help, </p>
-<p>Love lifted met </p>
+<p>Love lifted me </p>
 `
 a369=`
 <p>Jesus is now and ever will be </p>
@@ -4133,13 +4133,13 @@ a372=`
 <p>Teach me Thy will to do. </p>
 `
 a373=`
-<p>He which hath begun a good work in me, in me </p>
-<p>He will perform it He will perform it until the day of Jesus Christ. </p>
+<p>He which hath begun a good work in me, in me, </p>
+<p>He will perform it, He will perform it until the day of Jesus Christ. </p>
 `
 a374=`
 <p>He took me out of the pit, </p>
 <p>And from the miry clay; </p>
-<p>He set my feet on.a rock, </p>
+<p>He set my feet on a rock, </p>
 <p>Establishing my way; </p>
 <p>He put a song in my mouth, </p>
 <p>Our God to magnify, </p>
@@ -4262,7 +4262,7 @@ a388=`
 <p>Jesus, art Thou to me! </p>
 `
 a389=`
-<p>Say, N-O! N-O! to ev'ryrhing that's wrong; </p>
+<p>Say, N-O! N-O! to ev'rything that's wrong; </p>
 <p>And Y-E-S to the Saviour Jesus all day long! </p>
 `
 a390=`
@@ -4288,7 +4288,7 @@ a392=`
 <p>You shall the answer receive. </p>
 `
 a393=`
-<p>Oh, I love Him! .Yes, I love Him! </p>
+<p>Oh, I love Him! Yes, I love Him! </p>
 <p>For I know He first loved me; </p>
 <p>So I'll praise Him, and I'll serve Him, </p>
 <p>Here and in eternity. </p>
@@ -4320,7 +4320,7 @@ a397=`
 <p>For My grace, for My grace, </p>
 <p>Is enough for thee. </p>
 <p>I can do all things through </p>
-<p>Christ Who strengthens me." </p>
+<p>Christ Who strengthens me. </p>
 `
 a398=`
 <p>Remember to keep it holy, </p>
@@ -4416,7 +4416,7 @@ a411=`
 <p>Nothing but infinite grace from above </p>
 <p>Could have conceived such a story of love. </p>
 <p>Grace! grace! Infinite grace! . </p>
-<p>Flowing to-you and me. </p>
+<p>Flowing to you and me. </p>
 <p>Grace! grace! Infinite grace </p>
 <p>From the cross of Calvary! </p>
 `
@@ -4481,7 +4481,7 @@ a418=`
 <p>Fall afresh on me! </p>
 <p>Spirit of the Living God, </p>
 <p>Fall afresh on me! </p>
-<p>Break me, melt me, mould me, fill met </p>
+<p>Break me, melt me, mould me, fill me </p>
 <p>Spirit of the Living God, </p>
 <p>Fall afresh on me! </p>
 `
@@ -4507,8 +4507,8 @@ a420=`
 a421=`
 <p>Lord, with Thine own promises I'm knocking at Thy door, </p>
 <p>Where my heart's true treasure is, and Thine unfailing store; </p>
-<p>Knocking in the 'Name of names that nothing can withstand, </p>
-<p>Knocking as Thou bad'st me do, with faith's persistent </p>
+<p>Knocking in the Name of names that nothing can withstand, </p>
+<p>Knocking as Thou bad'st me do, with faith's persistent hand. </p>
 `
 a422=`
 <p>No other is so dear to me, </p>
@@ -4531,14 +4531,14 @@ a424=`
 `
 a425=`
 <p>Light and Salvation Thou art, Lord, to me; </p>
-<p>Strength of my life Thou hast promised to bc. </p>
+<p>Strength of my life Thou hast promised to be. </p>
 <p>Whom shall I fear? In Thee I hide; </p>
 <p>Teach me Thy way and be Thou my Guide. </p>
 `
 a426=`
 <p>Naught that I do can my salvation win, </p>
 <p>No striving of my own can take away my sin; </p>
-<p>But" Jesus only" shed His blood for me </p>
+<p>But "Jesus only" shed His blood for me </p>
 <p>To wash away my sin and set me free. </p>
 `
 a427=`
@@ -4552,8 +4552,8 @@ a427=`
 <p>When I hear His voice? </p>
 `
 a428=`
-<p>Teach me, 0 Lord, to do and be </p>
-<p>Always the. thing that pleases Thee; </p>
+<p>Teach me, O Lord, to do and be </p>
+<p>Always the thing that pleases Thee; </p>
 <p>Waken mine ear from day to day </p>
 <p>Thy will to know, Thy way to go, </p>
 <p>Thy lightest whisper to obey. </p>
@@ -4634,14 +4634,14 @@ a438=`
 <p>On Calvary's tree He suffered for me, </p>
 <p>The Just for the unjust, that I might be free: </p>
 <p>His grace is abundant, His love divine. </p>
-<p>Oh, wonder of wonders, this Saviour is miner </p>
+<p>Oh, wonder of wonders, this Saviour is mine </p>
 `
 a439=`
 <p>We part from one another, </p>
 <p>But not, 0 Lord, from Thee; </p>
 <p>For Thou art ever near Thine own, </p>
 <p>Protector, Friend to be: </p>
-<p>Thanks for the day of blessings race: </p>
+<p>Thanks for the day of blessings rare: </p>
 <p>Thanks for the night beneath Thy care. </p>
 `
 a440=`
@@ -4684,7 +4684,7 @@ a444=`
 <p>Is He satisfied with me? </p>
 `
 a445=`
-<p>Evry day, ev'ry day, </p>
+<p>Ev'ry day, ev'ry day, </p>
 <p>Ere I enter on the fray, </p>
 <p>Clothe me with Thine armour bright, </p>
 <p>Lest I falter in the fight; </p>
@@ -4710,7 +4710,7 @@ a448=`
 <p>Are you boldly displaying His colours, </p>
 <p>And proudly bearing His Name? </p>
 <p>Or are you coldly spurning </p>
-<p>His' wonderful love, so true? </p>
+<p>His wonderful love, so true? </p>
 <p>Oh! what are you doing with Jesus? </p>
 <p>He did so much for you. </p>
 `
@@ -4770,7 +4770,7 @@ a455=`
 <p>Kind and tender and forgiving </p>
 <p>God in Christ has been to me; </p>
 <p>So should we to one another </p>
-<p>Kind and tender-hearted be. </p>
+<p>Kind and tender hearted be. </p>
 `
 a456=`
 <p>Fight the fight of faith in the armour </p>
@@ -4925,7 +4925,7 @@ a472=`
 <p>When the rain comes down; </p>
 <p>Ev'ry hour of ev'ry day, </p>
 <p>In our work or in our play, </p>
-<p>God is Love, come that may, </p>
+<p>God is Love, come what may, </p>
 <p>Yes, God is Love! </p>
 `
 a473=`
@@ -4945,7 +4945,7 @@ a474=`
 <p>To highest heaven ascended, </p>
 <p>No more to die, </p>
 <p>His suff'rings all are ended; </p>
-<p>His life to me by faith He doth impart­</p>
+<p>His life to me by faith He doth impart­-</p>
 <p>To live again victorious in my heart. </p>
 `
 a475=`
@@ -4957,7 +4957,7 @@ a475=`
 a476=`
 <p>Oh, that it might be said of me, </p>
 <p>"Surely thy speech betrayeth thee; </p>
-<p>Thou hast been with Jesus of Ga1ilee, </p>
+<p>Thou hast been with Jesus of Galilee, </p>
 <p>With Jesus of Galilee." </p>
 `
 a477=`
@@ -5004,11 +5004,11 @@ a482=`
 <p>And joys that come to stay: </p>
 <p>Through all the year you've just begun </p>
 <p>God bless you ev'ry day, </p>
-<p>Protect you underneath 'His wings </p>
+<p>Protect you underneath His wings </p>
 <p>And teach you many precious things. </p>
 `
 a483=`
-<p>Keep looking up to your Saviour and Friend­</p>
+<p>Keep looking up to your Saviour and Friend­-</p>
 <p>Jesus, Who loves you, and will to the end. </p>
 <p>Keep looking out for another to bring </p>
 <p>Under the sway of our soon-coming King. </p>
@@ -5070,8 +5070,8 @@ a490=`
 <p>Jesus gave her water that was not in the well; </p>
 <p>She went away singing, </p>
 <p>She came back bringing</p>
-<br>
 <p>Others for the water that was not in the well. </p>
+<br>
 <p>Jesus still gives water that is not in the well; </p>
 <p>Jesus still gives water that is not in the well; </p>
 <p>To all who come believing, </p>
@@ -5083,7 +5083,7 @@ a491=`
 <p>Far across the sea, </p>
 <p>Never heard of Jesus, </p>
 <p>Jesus Who loves me; </p>
-<p>How I wish that they might heat </p>
+<p>How I wish that they might hear </p>
 <p>All about my Saviour dear. </p>
 `
 a492=`
@@ -5097,8 +5097,8 @@ a492=`
 a493=`
 <p>The God of love, to earth He came, </p>
 <p>That you might come to Heaven; </p>
-<p>Believe, believe in [esu's Name, </p>
-<p>And all your sin's forgiven. </p>
+<p>Believe, believe in Jesus' Name, </p>
+<p>And all your sins forgiven. </p>
 <p>Believe in Him that died for thee, </p>
 <p>And, sure as He hath died, </p>
 <p>Thy debt is paid, thy soul is free, </p>
@@ -5146,13 +5146,13 @@ a498=`
 <p>God our Father. </p>
 <p>Life and health His creatures owe Him; </p>
 <p>Nature's beauties ever show Him; </p>
-<p>Ransomed sinners through Jesus know Him­</p>
+<p>Ransomed sinners through Jesus know Him­-</p>
 <p>God our Father.</p>
 `
 a499=`
 <p>Only a channel, Lord, I would be, </p>
 <p>Heavenly messages flowing through me </p>
-<p>Out to the needy; glad, fall and free, </p>
+<p>Out to the needy; glad, full and free, </p>
 <p>Flowing by Calvary. </p>
 `
 a500=`
@@ -5184,7 +5184,7 @@ a503=`
 <p>The proof of His love I see; </p>
 <p>'Tis there at the cross </p>
 <p>Where He died for me </p>
-<p>That the proof of His love I sec. </p>
+<p>That the proof of His love I see. </p>
 `
 a504=`
 <p>Into the hands that were wounded to save me, </p>
@@ -5295,7 +5295,7 @@ a519=`
 <p>Bells of pardon, bells of peace, </p>
 <p>Sweetly ring and never cease: </p>
 <p>Tell of Christ the crucified, </p>
-<p>Risen 'now and glorified. </p>
+<p>Risen now and glorified. </p>
 `
 a520=`
 <p>When thou risest from thy bed, </p>
@@ -5336,7 +5336,7 @@ a524=`
 `
 a525=`
 <p>Down at the cross where Thou hast died, </p>
-<p>In all my sin and need I .bow; </p>
+<p>In all my sin and need I bow; </p>
 <p>Dear Lamb of God, once crucified, </p>
 <p>Receive and save me now. </p>
 <p>Up to the throne where Thou dost Iive, </p>
@@ -5348,7 +5348,7 @@ a526=`
 <p>He lives! He lives! Christ Jesus lives today! </p>
 <p>He walks with me and talks with me </p>
 <p>Along life's narrow way. </p>
-<p>He lives! He lives! salvation to impart I </p>
+<p>He lives! He lives! salvation to impart! </p>
 <p>You ask me how I know He lives- </p>
 <p>He lives within my heart! </p>
 `
@@ -5497,7 +5497,7 @@ a545=`
 <p>Behold! He comethl </p>
 <p>Behold! He cometh! </p>
 <p>He cometh to take all His own away. </p>
-<p>Behold! He .cometh! </p>
+<p>Behold! He cometh! </p>
 <p>He cometh with the clouds. </p>
 <p>O Lord, keep us watching for that great day. </p>
 `
@@ -5508,9 +5508,9 @@ a546=`
 <p>Lame ones made to walk; </p>
 <p>Palsied men and lepers too. </p>
 <p>All to Jesus came, </p>
-<p>"Boys and girls have sinful hearts, </p>
+<p>*Boys and girls have sinful hearts, </p>
 <p>They must do the same. </p>
-<p>or, If you would be cleansed from sin, </p>
+<p><em>*or</em>, If you would be cleansed from sin, </p>
 <p>You must do the same. </p>
 `
 a547=`
@@ -5549,7 +5549,7 @@ a550=`
 a551=`
 <p>Be ye doers of the Word, </p>
 <p>And not hearers only; </p>
-<p>Be" ye doers of the Word, </p>
+<p>Be ye doers of the Word, </p>
 <p>And not hearers only. </p>
 `
 a552=`
@@ -5647,7 +5647,7 @@ a565=`
 <p>Tread where Christ has trod; </p>
 <p>Joining with the host who through the years </p>
 <p>Win the lost for God. </p>
-<p>Many lands in Satan's bondage lie, </p>
+<p>*Many lands in Satan's bondage lie, </p>
 <p>Make the great salvation known, </p>
 <p>'Til the people, glad and free, shall rise, </p>
 <p>Christ as Lord to own. </p>
@@ -5667,7 +5667,7 @@ a568=`
 <p>God is able to save you, </p>
 <p>He is able to keep; </p>
 <p>For the God who watches o'er vou </p>
-<p>Does not slumber or sleep. . </p>
+<p>Does not slumber or sleep. </p>
 <p>He will help you when tempted, </p>
 <p>He will hold lest you fall, </p>
 <p>For His ears are ever </p>
@@ -5709,7 +5709,7 @@ a572=`
 `
 a573=`
 <p>Grace sufficient He'll provide you, </p>
-<p>Grace in just the way you.need, </p>
+<p>Grace in just the way you need, </p>
 <p>Grace to save you, grace to guide you, </p>
 <p>Grace from sin to keep you freed; </p>
 <p>Grace that you may stand unmoving, </p>
@@ -5749,7 +5749,7 @@ a577=`
 <p>Cradled in a manger lowly, </p>
 <p>See the Babe so pure and holy, </p>
 <p>Born for us, oh happy day, </p>
-<p>Born to beat our sins away. </p>
+<p>Born to bear our sins away. </p>
 `
 a578=`
 <p>He rose triumphantly, </p>
@@ -5799,7 +5799,7 @@ a583=`
 <p>Help me dear Lord, to find some heart that's broken, </p>
 <p>Some life where faith and hope are burning low: </p>
 <p>Help me to speak the word that should be spoken, </p>
-<p>That they Thy love and saving power may know, </p>
+<p>That they Thy love and saving power may know. </p>
 `
 a584=`
 <p>He found me with a burden, </p>
@@ -5824,7 +5824,7 @@ a586=`
 `
 a587=`
 <p>He was wounded for our transgressions, </p>
-<p>I le was bruised for our iniquities. </p>
+<p>He was bruised for our iniquities. </p>
 <p>The chastisement of our peace was upon Him, </p>
 <p>And with His stripes we are healed. </p>
 `
@@ -5899,7 +5899,7 @@ a594=`
 a595=`
 <p>I am He that liveth, that liveth and was dead; </p>
 <p>I am He that liveth, that liveth and was dead; </p>
-<p>And behold I am alive for. evermore; </p>
+<p>And behold I am alive for evermore; </p>
 <p>Behold, I am alive for evermore. </p>
 <p>I am He that liveth, that liveth and was dead, </p>
 <p>And behold I am alive for evermore. </p>
@@ -5927,7 +5927,7 @@ a599=`
 <p>If we confess our sins, </p>
 <p>He is faithful and just to forgive us our sins, </p>
 <p>And to cleanse us from all unrighteousness, </p>
-<p>And to cleanse us from all unrighteousness, </p>
+<p>And to cleanse us from all unrighteousness. </p>
 `
 a600=`
 <p>In every place at any time </p>
@@ -5977,11 +5977,11 @@ a604=`
 <p>It is the power of God unto salvation. </p>
 `
 a605=`
-<p>I'm.hiding Thy Word in my heart; </p>
+<p>I'm hiding Thy Word in my heart; </p>
 <p>I'm hiding Thy Word in my heart; </p>
 <p>In my heart, 0 Lord, </p>
 <p>Shall Thy Word be stored, </p>
-<p>That I.might not sin against Thee. </p>
+<p>That I might not sin against Thee. </p>
 `
 a606=`
 <p>In a good place, for a good purpose, </p>
@@ -6130,7 +6130,7 @@ a626=`
 <p>Help me Thy Word to understand, </p>
 <p>To listen for Thy least command, </p>
 <p>And fully trusting in Thy hand </p>
-<p>All Thy will obey, </p>
+<p>All Thy will obey. </p>
 `
 a627=`
 <p>Lord Jesus, be Thou with us now, </p>
@@ -6272,7 +6272,7 @@ a642=`
 a643=`
 <p>Open my eyes, 0 Lord, to see Thy lovely face, </p>
 <p>Show to my mind the wonders of Thy love and grace; </p>
-<p>Open my cars to hear the music of Thy voice, </p>
+<p>Open my ears to hear the music of Thy voice, </p>
 <p>Oh, free me from the chains that bind, and bid my heart rejoice! </p>
 `
 a644=`
@@ -6379,12 +6379,12 @@ a657=`
 <p>And will never let me go. </p>
 <p>Who can measure </p>
 <p>All the treasure </p>
-<p>Of His love, Who loves me sol </p>
+<p>Of His love, Who loves me so! </p>
 `
 a658=`
 <p>Someone is choosing the Saviour today, </p>
 <p>Someone's inviting Him in to stay; </p>
-<p>Someone is bidding Him go away I </p>
+<p>Someone is bidding Him go away! </p>
 <p>What are you doing with Jesus? </p>
 <p>What are you doing with Jesus? </p>
 `
@@ -6396,7 +6396,7 @@ a659=`
 `
 a660=`
 <p>Study to show thyself approved unto God, </p>
-<p>A,workman that needeth not to be ashamed; </p>
+<p>A workman that needeth not to be ashamed; </p>
 <p>Rightly dividing the word of truth; </p>
 <p>Rightly dividing the word of truth. </p>
 `
@@ -6484,7 +6484,7 @@ a672=`
 <p>Unto Him that loved us and washed us from sin, </p>
 <p>Unto Him be the power and the glory; </p>
 <p>Unto Him Who hath made us kings and priests unto God,</p>
-<p>Unto Him be the glory forever, </p>
+<p>Unto Him be the glory forever. </p>
 `
 a673=`
 <p>There is one true call that is ever clear, </p>
@@ -6534,7 +6534,7 @@ a680=`
 <p>We are watching for His coming, </p>
 <p>Looking for the glorious day </p>
 <p>When He will Himself receive us, </p>
-<p>To be with the Lord alway, </p>
+<p>To be with the Lord alway. </p>
 `
 a681=`
 <p>When in the morning I awake, </p>
@@ -6617,7 +6617,7 @@ a691=`
 `
 a692=`
 <p>Here we come with gladness, </p>
-<p>Gift-s of love to bring; </p>
+<p>Gifts of love to bring; </p>
 <p>Praising Him Who loves us, </p>
 <p>Christ, our Saviour King. </p>
 <p>Small may be the offering, </p>
@@ -6699,7 +6699,7 @@ a702=`
 <p>Though he were asleep in bed, </p>
 <p>If your knocks were often heard, </p>
 <p>He would rise and give you bread </p>
-<p>As many as you need So...</p>
+<p>As many as you need. So...</p>
 <br>
 <p>Ask, seek, knock; Ask, seek, knock. </p>
 <p>God the Father knows your need, so ask, seek, knock. </p>
@@ -6755,7 +6755,7 @@ a707=`
 a708=`
 <p>Let us give thanks to God all the day long, </p>
 <p>Praise Him with heart and voice, praise Him in song. </p>
-<p>Sing sing! unto our King. </p>
+<p>Sing! sing! unto our King. </p>
 `
 a709=`
 <p>Praise Him, praise Him, </p>
@@ -7251,4 +7251,96 @@ hList = [a, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an,
 		bc, bd, be];
 return	hList;
 }
+
+
+// Tune Collection Function 
+function tuneCollections(){
+	var song1 = 'res/myaudio/song1.mp3';
+	var song5 = 'res/myaudio/song5.mp3';
+	var song10 = 'res/myaudio/song10.mp3';
+	var song14 = 'res/myaudio/song14.mp3';
+	var song23 = 'res/myaudio/song23.mp3';
+	var song24 = 'res/myaudio/song24.mp3';
+	var song30 = 'res/myaudio/song30.mp3';
+	var song33 = 'res/myaudio/song33.mp3';
+	var song48 = 'res/myaudio/song48.mp3';
+	var song50 = 'res/myaudio/song50.mp3';
+	var song61 = 'res/myaudio/song61.mp3';
+	var song66 = 'res/myaudio/song66.mp3';
+	var song78 = 'res/myaudio/song78.mp3';
+	var song79 = 'res/myaudio/song79.mp3';
+	var song80 = 'res/myaudio/song80.mp3';
+	var song85 = 'res/myaudio/song85.mp3';
+	var song94 = 'res/myaudio/song94.mp3';
+	var song103 = 'res/myaudio/song103.mp3';
+
+	var song130 = 'res/myaudio/song130.mp3';
+	var song132 = 'res/myaudio/song132.mp3';
+	var song135 = 'res/myaudio/song135.mp3';
+	var song176 = 'res/myaudio/song176.mp3';
+	var song177 = 'res/myaudio/song177.mp3';
+	var song178 = 'res/myaudio/song178.mp3';
+	var song179 = 'res/myaudio/song179.mp3';
+	var song187 = 'res/myaudio/song187.mp3';
+	var song189 = 'res/myaudio/song189.mp3';
+	var song202 = 'res/myaudio/song202.mp3';
+	var song217 = 'res/myaudio/song217.mp3';
+	var song230 = 'res/myaudio/song230.mp3';
+	var song244 = 'res/myaudio/song244.mp3';
+	var song254 = 'res/myaudio/song254.mp3';
+	var song269 = 'res/myaudio/song269.mp3';
+	var song285 = 'res/myaudio/song285.mp3';
+	var song301 = 'res/myaudio/song301.mp3';
+	var song318 = 'res/myaudio/song318.mp3';
+	var song322 = 'res/myaudio/song322.mp3';
+	var song330 = 'res/myaudio/song330.mp3';
+	var song363 = 'res/myaudio/song363.mp3';
+	var song389 = 'res/myaudio/song389.mp3';
+	var song401 = 'res/myaudio/song401.mp3';
+	var song408 = 'res/myaudio/song408.mp3';
+	var song409 = 'res/myaudio/song409.mp3';
+	var song411 = 'res/myaudio/song411.mp3';
+	var song418 = 'res/myaudio/song418.mp3';
+	var song465 = 'res/myaudio/song465.mp3';
+	var song475 = 'res/myaudio/song475.mp3';
+	var song575 = 'res/myaudio/song575.mp3';
+	var song613 = 'res/myaudio/song613.mp3';
+	var song701 = 'res/myaudio/song701.mp3';
+	var song704 = 'res/myaudio/song704.mp3';
+	var song709 = 'res/myaudio/song709.mp3';
+
+
+	var tuneList = [0, song1,2,3, 4, song5, 6, 7, 8, 9, song10,11,12,13,song14, 15, 16,17,18,19,20, 21,22,song23,song24,25, +
+					26,27,28,29,song30, 31,32,song33,34,35,36,37,38,39,40, 41,42,43,44,45, 46,47,song48,49, song50, +
+					51,52,53,54,55, 56,57,58,59,60, song61, 62,63,64,65, song66, 67,68,69,70,71,72,73,74, 75, +
+					76, 77, song78, song79, song80, 81,82,83,84, song85, 86,87,88,89,90,91,92,93,song94, 95,96,97,98,99,100, +
+					101,	102,  song103,	104,	105,	106,	107,	108,	109,	110,	111,	112,	113,	114,	115,	116,	117,	118,	119,	120,	121,	122,	123,	124,	125, +
+					126,	127,	128,	129, song130,	131,  song132,	133,	134, song135,	136,	137,	138,	139,	140,	141,	142,	143,	144,	145,	146,	147,	148,	149,	150, +
+					151,	152,	153,	154,	155,	156,	157,	158,	159,	160,	161,	162,	163,	164,	165,	166,	167,	168,	169,	170,	171,	172,	173,	174,		 +
+					175, song176, song177, song178, song179,	180,	181,	182,	183,	184, 185, 186,  song187, 188,   song189,	190,	191,	192,	193,	194,	195,	196,	197,	198,	199,	200, +
+					201, song202,	203,	204,	205,	206,	207,	208,	209,	210,	211,	212,	213,	214,	215,	216, song217,	218,	219,	220,	221,	222,	223,	224,	225, +
+					226,	227,	228,	229, song230,	231,	232,	233,	234,	235,	236,	237,	238,	239,	240,	241,	242,	243, song244,	245,	246,	247,	248,	249,	250, +
+					251,	252,	253, song254,	255,	256,	257,	258,	259,	260,	261,	262,	263,	264,	265,	266,	267,	268, song269,	270,	271,	272,	273,	274,	275, +
+					276,	277,	278,	279,	280,	281,	282,	283,	284, song285,	286,	287,	288,	289,	290,	291,	292,	293,	294,	295,	296,	297,	298,	299,		 +
+					300, song301,	302,	303,	304,	305,	306,	307,	308,	309,	310,	311,	312,	313,	314,	315,	316,	317, song318,	319,	320,	321, song322,	323,	324,	325, +
+					326,	327,	328,	329, song330,	331,	332,	333,	334,	335,	336,	337,	338,	339,	340,	341,	342,	343,	344,	345,	346,	347,	348,	349,	350, +
+					351,	352,	353,	354,	355,	356,	357,	358,	359,	360,	361,	362, song363,	364,	365,	366,	367,	368,	369,	370,	371,	372,	373,	374,	375, +
+					376,	377,	378,	379,	380,	381,	382,	383,	384,	385,	386,	387,	388, song389,	390,	391,	392,	393,	394,	395,	396,	397,	398,	399,		 +
+					400, song401,	402,	403,	404,	405,	406,	407,	408,	409,	410, song411,	412,	413,	414,	415,	416,	417, song418,	419,	420,	421,	422,	423,	424,	425, +
+					426,	427,	428,	429,	430,	431,	432,	433,	434,	435,	436,	437,	438,	439,	440,	441,	442,	443,	444,	445,	446,	447,	448,	449,	450, +
+					451,	452,	453,	454,	455,	456,	457,	458,	459,	460,	461,	462,	463,	464, song465,	466,	467,	468,	469,	470,	471,	472,	473,	474, song475, 476, +
+							477,	478,	479,	480,	481,	482,	483,	484,	485,	486,	487,	488,	489,	490,	491,	492,	493,	494,	495,	496,	497,	498,	499,	500, +
+					501,	502,	503,	504,	505,	506,	507,	508,	509,	510,	511,	512,	513,	514,	515,	516,	517,	518,	519,	520,	521,	522,	523,	524,	525, +
+					526,	527,	528,	529,	530,	531,	532,	533,	534,	535,	536,	537,	538,	539,	540,	541,	542,	543,	544,	545,	546,	547,	548,	549,	550, +
+					551,	552,	553,	554,	555,	556,	557,	558,	559,	560,	561,	562,	563,	564,	565,	566,	567,	568,	569,	570,	571,	572,	573,	574, song575, 576, +
+							577,	578,	579,	580,	581,	582,	583,	584,	585,	586,	587,	588,	589,	590,	591,	592,	593,	594,	595,	596,	597,	598,	599,	600, +
+					601,	602,	603,	604,	605,	606,	607,	608,	609,	610,	611,	612, song613,	614,	615,	616,	617,	618,	619,	620,	621,	622,	623,	624,	625, +
+					626,	627,	628,	629,	630,	631,	632,	633,	634,	635,	636,	637,	638,	639,	640,	641,	642,	643,	644,	645,	646,	647,	648,	649,	650, +
+					651,	652,	653,	654,	655,	656,	657,	658,	659,	660,	661,	662,	663,	664,	665,	666,	667,	668,	669,	670,	671,	672,	673,	674,	675, +
+					676,	677,	678,	679,	680,	681,	682,	683,	684,	685,	686,	687,	688,	689,	690,	691,	692,	693,	694,	695,	696,	697,	698,	699,		 +
+					700, song701,	702,	703, song704, 705, 706, 707, 708, song709 ];																
+	return tuneList;
+}
+
+
 

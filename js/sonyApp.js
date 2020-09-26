@@ -293,27 +293,6 @@ function countFavs(){
 	document.getElementById("homeFavCount").innerHTML = myFavs;
 }
 
-/*
-//Movintboo Text
-// Wrap every letter in a span 
-var textWrapper = document.querySelector('.bottomA'); 
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>"); 
-anime.timeline({loop: true}) 
-.add({ 
-	targets: '.ml2 .letter', 
-	scale: [4,1], 
-	opacity: [0,1], translateZ: 0, 
-	easing: "easeOutExpo", 
-	duration: 950, 
-	delay: (el, i) => 70*i 
-	}).add({ 
-		targets: '.ml2', 
-		opacity: 0, 
-		duration: 1000, 
-		easing: "easeOutExpo", 
-		delay: 1000 
-	});
-*/
 
 function fadingVerses(){setInterval(function(){
 	$("#dailyPass").hide();
@@ -336,3 +315,378 @@ function exitFromApp(){
 
 	}
 }
+
+/*
+// Tune Collection Function 
+function tuneCollections(){
+	var song1 = 'res/myaudio/song1.mp3';
+	var song5 = 'res/myaudio/song5.mp3';
+	var song10 = 'res/myaudio/song10.mp3';
+	var song14 = 'res/myaudio/song14.mp3';
+	var song16 = 'res/myaudio/audio5.mp3';
+	var tuneList = [0,song1,2, 3, 4, song5, 6, 7, 8, 9, song10,11,12,13,song14, 15, song16];
+	return tuneList;
+}
+*/
+
+/* Tune Collection Function 
+function tuneCollections(){
+	var song1 = 'res/myaudio/song1.mp3';
+	var song5 = 'res/myaudio/song5.mp3';
+	var song10 = 'res/myaudio/song10.mp3';
+	var song14 = 'res/myaudio/song14.mp3';
+	var song23 = 'res/myaudio/song23.mp3';
+	var song24 = 'res/myaudio/song24.mp3';
+	var song30 = 'res/myaudio/song30.mp3';
+	var song33 = 'res/myaudio/song33.mp3';
+	var song48 = 'res/myaudio/song48.mp3';
+	var song50 = 'res/myaudio/song50.mp3';
+	var song61 = 'res/myaudio/song61.mp3';
+	var song66 = 'res/myaudio/song66.mp3';
+	var song78 = 'res/myaudio/song78.mp3';
+	var song79 = 'res/myaudio/song79.mp3';
+	var song80 = 'res/myaudio/song80.mp3';
+	var song85 = 'res/myaudio/song85.mp3';
+	var song94 = 'res/myaudio/song94.mp3';
+	var song103 = 'res/myaudio/song94.mp3';
+
+	var tuneList = [0, song1,2,3, 4, song5, 6, 7, 8, 9, song10,11,12,13,song14, 15, 16,17,18,19,20, 21,22,song23,song24,25,26,27,28,29,song30, 31,32,song33,34,35,36,37,38,39,40, 41,42,43,44,45, 46,47,song48,49, song50, 51,52,53,54,55, 56,57,58,59,60, song61, 62,63,64,65, song66, 67,68,69,70,71,72,73,74,75,76, 77, song78, 79, song80, 81,82,83,84, song85, 86,87,88,89,90,91,92,93,song94, 95,96,97,98,99,100, 101,102,song103];
+	return tuneList;
+}*/
+
+function resetSongBtn(){
+	var tuneControl = $('#tuneControl').text();
+	var tuneControl2 = $('#tuneControl2').text();
+	if(tuneControl === 2 ){
+		$('#songTune').css('background-color', '');
+		$('#songTune').text('Play Song Tune');
+	}
+	if(tuneControl === 0 && tuneControl2 === 1){
+		$('#songTune').css('background-color', 'aqua');
+		$('#songTune').text('Pause Song Tune');
+	}
+}
+
+// Check Song Tune at the click of Panel btn (My Songs Display Screen)
+/*  tuneControl: 
+		0 - Song is vailable to play
+		2 - Song is Not available to play
+	tuneControl2:
+	  if 0 - Play Song
+	     1 - Stop Song
+*/
+function checkSongTune(){
+	var songNo = document.getElementById('hymnNoIndex').innerHTML;
+	var tuneControl = document.getElementById('tuneControl').innerHTML;
+	var tuneCall = tuneCollections();
+	var checkTune = tuneCall[songNo];
+	
+	//Check if available
+	if(typeof checkTune == 'string'){
+		$('#songTune').text('Play Song Tune');
+		$('#songTune').css('background-color', 'lime');
+		$('#tuneControl').text(0);
+
+	}else {$('#tuneControl').text(2);
+		$('#songTune').css('background-color', '');
+		$('#songTune').text('Song tune unavailable');}
+	//resetSongBtn();
+}
+
+/* Home Song Panel- Play Audio & Display*/
+//var music = new Audio();
+function playSong(){
+	var tuneControl2 = $('#tuneControl2').text();
+
+	var tuneControl = document.getElementById('tuneControl').innerHTML;
+	tuneControl = parseInt(tuneControl);
+	if(tuneControl === 0){
+		var songNo = document.getElementById('hymnNoIndex').innerHTML;	
+		var playme = document.getElementById('myaudioID');
+
+		document.getElementById('songTune').style.backgroundColor = 'aqua';
+		var tuneCall = tuneCollections();
+		$('#tuneControl2').text(1);
+		//$('#songTune').text('Pause Song Tune');
+		playme.src = tuneCall[songNo];
+		playme.load();
+		playme.play();
+		playme.loop = true;
+	//Call Stop Butto
+		$('#stopSongTune').css('visibility', 'visible');
+		$('#stopSongTune-HomeDiv').css('display', 'block');
+	}
+}
+
+function stopSongTune(){
+	var tuneControl2 = $('#tuneControl2').text();
+
+	var tuneControl = document.getElementById('tuneControl').innerHTML;
+	tuneControl = parseInt(tuneControl);
+
+		var playme = document.getElementById('myaudioID');
+		document.getElementById('songTune').style.backgroundColor = '';
+		//var tuneCall = tuneCollections();
+		//playme.src = tuneCall[songNo];
+		//playme.load();
+		playme.pause();
+		$('#tuneControl2').text(0);
+		$('#stopSongTune').css('visibility', 'hidden');
+		$('#stopSongTune-HomeDiv').css('display', 'none');
+}
+
+/* -------- Developer Section ----------- */
+//Write My Songs- Preview My Song
+var myAddedSongsTitleList = [];
+var myAddedSongsSoloList = [];
+$(function(){
+    $("#addMySong").on("click", function(){
+	var addSongTitle = $("#writeTitle").val();
+	var addSongSolo = $("#writeSolo").val();
+	if(addSongTitle != '' && addSongSolo != ''){
+		$("#mySongTitle").text('Song Title: '+addSongTitle);
+		//$("#mySongCreated").text('');
+		$("#mySongCreated").html('');
+		//var soloPreview = addSongSolo.replace(/"/g, '<p>');
+		var soloPreview = addSongSolo.replace(/:/g, '<p>');
+		//var soloPreview = addSongSolo.replace(/"/g, '<p>');
+		$("#mySongCreated").append(soloPreview);
+		}
+    });
+});
+
+/*----Clear My Songs & Undo My Songs -----*/
+//Create dummy variables
+var dummyTitle = "";
+var dummySolo = "";
+
+$(function(){
+	$('#clearMySong').click(function(){		
+	var holdMyITitle = $("#writeTitle").val();
+	var holdMyISolo = $("#writeSolo").val();
+	var holdMyDTitle = $("#mySongTitle").text();
+	var holdMySSolo = $("#mySongCreated").text();
+
+	//Send input data to dummy variables before deleting
+	dummyTitle = holdMyITitle;
+	dummySolo = holdMyISolo;
+	dummyDTitle = holdMyDTitle;
+	dummyDSolo = holdMySSolo;
+
+	//Delete input data
+	$("#writeTitle").val('');
+	$("#writeSolo").val('');
+	$("#mySongTitle").text('');
+	$("#mySongCreated").text('');
+	});
+
+	//Recall
+	$('#undoClearSong').click(function(){
+	//Recall data from dummy variables
+	$("#writeTitle").val(dummyTitle);
+	$("#writeSolo").val(dummySolo);
+	});
+});
+/*----/Clear My Songs & Undo My Songs -----*/
+
+//Add My Songs- Save My Song
+function addMySong(){
+	//Get Song Values
+	//var title = $("#mySongTitle").text();
+	//var solo = $("#mySongCreated").text();
+	//var solo = $("#mySongCreated").text();
+	var title = $("#writeTitle").val();  //This is working
+	var solo = $("#writeSolo").val();
+
+	//Check if songtitle & solo are empty
+	if(title != '' && solo != ''){
+		var mySongs = getMyAddSongsObject();
+		nextID = mySongs.length;
+
+		//Set unique ID using length of the object 
+		var songID = nextID+50000;
+
+		//Create 'mySong' object
+		var mySong = {
+			title: title,
+			solo: solo,
+			songID: songID};
+
+		// Add mySong to mySongs array
+		mySongs.push(mySong);
+
+		//Set stringgified object to localStorage
+		localStorage.setItem('mySongs', JSON.stringify(mySongs));
+
+		alert("My Script Added successful");
+			//Delete input data
+			$("#writeTitle").val('');
+			$("#writeSolo").val('');
+			$("#mySongTitle").text('');
+			$("#mySongCreated").text('');
+		return false;
+	} 
+	if (title === '' && solo === ''){
+		alert('Please write Song Title and Solo and preview');
+	}
+}
+
+//Get the runs object
+function getMyAddSongsObject(){
+	//Set mySongs array
+	var mySongs= new Array();
+	//Get current mySongs from localStorage
+	var myCurrentSongs = localStorage.getItem('mySongs');
+
+	//Check localStorage
+	if(myCurrentSongs != null){
+		var mySongs = JSON.parse(myCurrentSongs);
+	}
+	//Return runs object
+	return mySongs;
+}
+
+
+function populateMyAddedSongs(){
+	//Clear all the exisitng list
+	$('#mySongIndices').empty();
+
+	//get runs object
+	var mySongs = getMyAddSongsObject();
+	//var myFavs2= ["hello", "Good", "Tested", "Nice"]
+
+	//Check if empty
+	if(mySongs !="" && mySongs != null){
+		for(var i = 0; i < mySongs.length; i++){
+		$('#mySongIndices').append('<li class="ui-btn songTitleIndexClass" id="songTitleIndexCont">'+mySongs[i]["title"]
+		+'<a class="favListIcons ui-icon-eye ui-btn-icon-left favIcon" id="'+mySongs[i]["songID"]
+		+'" onclick="printMySong(this.id); formatMyDisplaySolo()"></a><a href="#" id="deleteMyAddedSong" data-title="'+mySongs[i]["title"]
+		+'" class="favListIcons ui-icon-delete ui-btn-icon-right"></a></li><hr>'); 
+		}
+	}
+	countMyScripts();
+}
+
+
+//Print My Selected Song to the Screen
+function printMySong(selTitle){
+	    	localStorage.setItem('myCurrentID', selTitle);
+
+	    	//Get current data
+	    	myCurrentID = localStorage.getItem('myCurrentID');
+
+			var mySongs = getMyAddSongsObject();
+	    	//Loop through runs
+	        //&& runs[i].date == currentDate
+	    	for(var i = 0; i < mySongs.length; i++){
+	    		if(mySongs[i].songID == myCurrentID){
+
+	    			$('#page12SongTitle').text(mySongs[i].title);
+	    			$('#pg12SongDisplay').html(mySongs[i].solo);
+	    			//alert( mySongObj[i].solo);
+	    		}
+	    		localStorage.setItem('mySongs', JSON.stringify(mySongs));
+	    		//call showFavs()
+	    		//	showMyFavs();
+	    		//formatMyDisplaySolo();
+	    		location.replace("#page12");
+	    	}
+	    	return false;
+};
+
+
+//Delete from Favourite
+$(document).one('pageinit', function(){
+	// Delete Handler
+	$('#mySongIndices').on('click', '#deleteMyAddedSong', deleteMySong);
+
+	function deleteMySong(){
+		//alert("wanan to delete?");}
+	//Set LS items
+		if(confirm('Are you sure?')){
+	    	localStorage.setItem('currentTitle', $(this).data('title'));
+
+	    	//Get current data
+	    	currentTitle = localStorage.getItem('currentTitle');
+
+			var mySongs = getMyAddSongsObject();
+
+	    	//Loop through runs
+	        //&& runs[i].date == currentDate
+	    	for(var i = 0; i < mySongs.length; i++){
+	    		if(mySongs[i].title == currentTitle){
+	    			mySongs.splice(i, 1);
+	    		}
+	    		localStorage.setItem('mySongs', JSON.stringify(mySongs));
+	    		//call showFavs()
+	    			popuateMyAddedSongs();
+	    	}
+	    	return false;
+    	}
+	}
+}); 
+/* ------- Testing Buttons ---------*/
+//Get Displayed Song Contents
+$(function(){
+    $("#getContent").on("click", function(){
+    var mySong = $("#pg9SongDisplay").text();
+    var mySongContent = $("#pg9SongDisplay").html();
+    //JSON.parse(mySong);
+    //JSON.parse(mySongContent);
+	
+	alert(mySong);
+	alert(mySongContent);
+    });
+});
+
+//Format My Song On Display Screen
+$(function(){
+    $("#fMySong").on("click", function(){
+    var mySong = $("#pg9SongDisplay").text();
+    var mySongContent = $("#pg9SongDisplay").html();
+    //JSON.parse(mySong);
+    //JSON.parse(mySongContent);
+
+	mySongContent = mySong;
+	var finalSong = mySong.replace(/:/g, '<p>');
+	//$("#mySongCreated").append(soloPreview);
+	$("#pg9SongDisplay").html('');
+	$("#pg9SongDisplay").html(finalSong);
+
+    });
+});
+
+
+//Format My Song On Display Screen
+$(function(){
+    $("#revContents").on("click", function(){
+    var mySong = $("#mySongCreated").text();
+    var mySongContent = $("#mySongCreated").html();
+    //JSON.parse(mySong);
+    //JSON.parse(mySongContent);
+
+	alert(mySong);
+	alert(mySongContent);
+
+    });
+});
+
+/* ------- /Testing Buttons ---------*/
+
+//Format My Song To On Display on Screen
+function formatMyDisplaySolo(){
+    var mySong = $("#pg12SongDisplay").text();
+    var mySongContent = $("#pg12SongDisplay").html();
+
+	mySongContent = mySong;
+	var finalSong = mySong.replace(/:/g, '<p>');
+	$("#pg12SongDisplay").html('');
+	$("#pg12SongDisplay").html(finalSong);
+};
+
+function countMyScripts(){
+	var myScripts = getMyAddSongsObject().length;
+	document.getElementById("homeMyScriptCount").innerHTML = myScripts;
+}
+
+/* ------- /Developer ----------- */
