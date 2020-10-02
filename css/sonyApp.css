@@ -475,7 +475,7 @@
 	font-size: 14px;
 	font-weight: 700;
 	text-align: center;
-	line-height: 80%;
+	/*line-height: 80%;*/
 	border:2px solid #FFFFFF; border-radius:20px;
 	box-shadow: 10px 10px 10px grey;
 }
@@ -651,6 +651,7 @@ homeSong-font-size - 20px; homeSongBtn-font-size - 40px;
 .aboutText{font-size: 14px}
 #aboutTopImage{width: 60px;}
 #srchInputHomePg{font-size: 12px; height: 20px;}
+#addMySong, #clearMySong, #undoClearSong, #storeMySong{font-size: 10px;}
 }
 
 @media only screen and (max-width: 300px){

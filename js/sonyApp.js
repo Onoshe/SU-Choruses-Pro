@@ -690,3 +690,12 @@ function countMyScripts(){
 }
 
 /* ------- /Developer ----------- */
+/*
+$(function(){
+	//var test = $('.navBtns-Home').css("margin");
+	$("#mySongCreated").click(function(){
+	var x = $("#mySongCreated").css("font-size");
+	alert(x);
+	});
+});
+*/

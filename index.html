@@ -67,6 +67,7 @@
 			<ul data-role="listview">
 				<li data-icon="mail"><a href="mailto:adesung2005@yahoo.co.uk">Send us Feedback:<br>adesung2005@gmail.com</a></li>
 				<li data-icon="phone"><a href="https://api.whatsapp.com/send?phone=2348064205333">Contact us:+2348064205333</a></li>
+				<!--<li data-icon="comment"><a href="https://api.whatsapp.com/send?phone=2348064205333">Chat with us</a></li>-->
 			</ul>
 		</div>
 		<hr>
@@ -75,7 +76,7 @@
 
 	<div data-role="header" data-position="fixed" id="homeHeaderBar">
 		<!--<h1 class="noTextShadow">SU</h1>-->
-		<h1  id="srchInputHomePgCont"><input data-role="none" type="tel" placeholder="&#128269;Chorus No 1 - 709" id="srchInputHomePg"></h1>
+		<h1  id="srchInputHomePgCont"><input data-role="none" type="number" placeholder="&#128269;Chorus No 1 - 709" id="srchInputHomePg"></h1>
 		<a href="#nav-panel" class="ui-btn ui-icon-bars ui-btn-icon-notext" id="homeHeaderIconL">bars</a>
 		<a id="songNoSearchBtn" class="ui-btn ui-icon-search ui-btn-icon-notext" onclick="songNoSearchFun()">search</a>
 	
@@ -207,7 +208,7 @@
 </div><!-- /panel -->
 
 	<div data-role="header" data-position="fixed" id="pg3Header">
-		<h4 id="hymnNo">Song No 2</h4><a data-direction="reverse" class="ui-btn ui-icon-back ui-btn-icon-notext" data-rel="back" href="#" id="pg3HeaderBtnL">back</a>
+		<h4 id="hymnNo">Song No 2</h4><a data-rel="back" href="#"  class="ui-btn ui-icon-back ui-btn-icon-notext" id="pg3HeaderBtnL" data-direction="reverse">back</a>
 		<div style="display: none;" id="hymnNoIndex">2</div>
 
 		<a href="#hDisplayPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext" id="pg3HeaderBtnR" onclick="checkSongTune()">bars</a>
@@ -501,7 +502,8 @@
 			<a href="#" class="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left" id="storeMySong" onclick="addMySong()">Save</a>
 			<!--<a href="#" class="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left" id="revContents" >RevCont</a>-->
 		</div>
-		<h3>Scripture Union Nig</h3>
+		<p style="float:right" id="zoomOutCDS" class="zoomDS">+&#128269;</p>
+		<p style="float:right" id="zoomInCDS"  class="zoomDS">-&#128269;</p>
 	</div><!-- /footer -->
 </div><!-- /page10 -->
 
@@ -511,7 +513,6 @@
 	<div data-role="header" id="pg11Header">
 		<a data-direction="reverse" href="#page10" class="ui-btn ui-icon-back ui-btn-icon-notext" id="pg11HeaderBtnL">back</a>
 		<h1>My Songs Index</h1>
-		<a href="#page12" class="ui-btn ui-icon-eye ui-btn-icon-notext" id="pg11HeaderBtnR">bars</a>
 	</div><!-- /header -->
 
 	<div role="main" class="ui-content" id="pg11Main">
@@ -551,7 +552,8 @@
 	</div><!-- /content -->
 
 	<div data-role="footer" data-position="fixed" id="pg12Footer">
-		<h4>Scripture Union Nigeria</h4>
+		<p style="float:right" id="zoomOutCDDS" class="zoomDS">+&#128269;</p>
+		<p style="float:right" id="zoomInCDDS"  class="zoomDS">-&#128269;</p>
 	</div><!-- /footer -->
 </div><!-- /page12 -->
 

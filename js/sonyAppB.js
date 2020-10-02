@@ -75,7 +75,8 @@ if(songNumber.value > 0 && songNumber.value <=709 && songNumber1 > 0){
 	document.getElementById("songNoSearchBtn").style.backgroundColor = "#203f4a";
 	document.getElementById("srchInputHomePg").style.border = "0px solid #203f4a";
 	songNumber.value = "";
-} };
+	}else{alert("Search Song number 1 - 709"); songNumber.value = "";}
+};
 
 //Home - Search By Title Button
 $(function(){
@@ -266,6 +267,87 @@ $(function(){
 	});
 });
 
+/*Zoom Out  Create Display*/
+$(function(){
+	$('#zoomInCDS').click(function(){
+	var currentFontSize = $('#mySongCreated').css('font-size');
+	var currentSize = $('#mySongCreated').css('font-size');
+	if(currentSize >= "12px"){
+	var currentSize = parseFloat(currentSize)-2;
+	$('#mySongCreated').css('font-size', currentSize);
+
+	if(currentSize >= "14px"){
+		$('#zoomOutCDS').css('background-color', '');
+		$('#zoomInCDS').css('background-color', '');
+	}else{
+		$('#zoomOutCDS').css('background-color', '');
+		$('#zoomInCDS').css('background-color', 'aqua');
+	}
+	return false;
+	};
+	});
+});
+/*Zoom In Create Display */
+$(function(){
+	$('#zoomOutCDS').click(function(){
+	var currentFontSize = $('#mySongCreated').css('font-size');
+	var currentSize = $('#mySongCreated').css('font-size');
+	if(currentSize <= "30px"){
+	var currentSize = parseFloat(currentSize)+2;
+	$('#mySongCreated').css('font-size', currentSize);
+
+	if(currentSize >= "14px"){
+		$('#zoomOutCDS').css('background-color', '');
+		$('#zoomInCDS').css('background-color', '');
+	}else{
+	$('#zoomInCDS').css('background-color', '');
+	$('#zoomOutCDS').css('background-color', 'aqua');
+	}
+	return false;
+	};
+	});
+});
+
+/*Zoom Out  Create Display Screen*/
+$(function(){
+	$('#zoomInCDDS').click(function(){
+	var currentFontSize = $('#pg12SongDisplay').css('font-size');
+	var currentSize = $('#pg12SongDisplay').css('font-size');
+	if(currentSize >= "12px"){
+	var currentSize = parseFloat(currentSize)-5;
+	$('#pg12SongDisplay').css('font-size', currentSize);
+
+	if(currentSize >= "25px"){
+		$('#zoomOutCDDS').css('background-color', '');
+		$('#zoomInCDDS').css('background-color', '');
+	}else{
+		$('#zoomOutCDDS').css('background-color', '');
+		$('#zoomInCDDS').css('background-color', 'aqua');
+	}
+	return false;
+	};
+	});
+});
+/*Zoom In Create Display Screen*/
+$(function(){
+	$('#zoomOutCDDS').click(function(){
+	var currentFontSize = $('#pg12SongDisplay').css('font-size');
+	var currentSize = $('#pg12SongDisplay').css('font-size');
+	if(currentSize <= "45px"){
+	var currentSize = parseFloat(currentSize)+5;
+	$('#pg12SongDisplay').css('font-size', currentSize);
+
+	if(currentSize >= "25px"){
+		$('#zoomOutCDDS').css('background-color', '');
+		$('#zoomInCDDS').css('background-color', '');
+	}else{
+	$('#zoomInCDDS').css('background-color', '');
+	$('#zoomOutCDDS').css('background-color', 'aqua');
+	}
+	return false;
+	};
+	});
+});
 /*Populate & Print CI Chorus to Screen. Assurance ID -3000.*/
 function printAssuranceCI(num){
 	num = num;

@@ -26,7 +26,7 @@ a2=`All, all, all of my heart for Jesus`
 a3=`All glory be to Jesus`
 a4=`All power is given unto Me`
 a5=`All the way to Calvary, He went for me`
-a6=`All the world for Jesus," let the chorus ring`
+a6=`All the world for Jesus, let the chorus ring`
 a7=`All we like sheep have gone astray`
 a8=`Are you looking, looking, looking, unto Jesus`
 a9=`As Moses lifted up the serpent in the wilderness`
@@ -41,7 +41,7 @@ a17=`Christ once hath suffered, the Just for the unjust`
 a18=`Cleanse me from my sin, Lord`
 a19=`Come and serve the Master`
 a20=`Come, follow the King, come, follow the King`
-a21=`Come. let us reason, reason, reason`
+a21=`Come let us reason, reason, reason`
 a22=`Come unto Me, all ye that labour and are heavy laden`
 a23=`Count your blessings, name them one by one`
 a24=`Draw me nearer, nearer, blessed Lord`
@@ -104,7 +104,7 @@ a80=`I need Thee, oh! I need Thee`
 a81=`I never will cease to praise Him`
 a82=`I take Thee, blessed Lord`
 a83=`It is not try, but trust`
-a84=`It's just like Him," to take my sins away`
+a84=`It's just like Him, to take my sins away`
 a85=`I want no other argument`
 a86=`I will come to Jesus, right away`
 a87=`Jesus died to set me free`
@@ -212,9 +212,9 @@ a188=`There'Il be no sorrow there`
 a189=`There's a fight to be fought, and a race to be run`
 a190=`The wages of sin is death, the wages of sin is death`
 a191=`The whole wide world, the whole wide world`
-a192=`The, Word was made flesh and tabernacled among us`
+a192=`The Word was made flesh and tabernacled among us`
 a193=`They plaited Thee a crown of thorn`
-a194=`This' is a faithful saying`
+a194=`This is a faithful saying`
 a195=`This same Jesus shall return again`
 a196=`Thou art mine, Thou art mine`
 a197=`Though now we see Him not`
@@ -326,7 +326,7 @@ a302=`Absolutely tender, absolutely true`
 a303=`Run the race that is set before you`
 a304=`In my heart there rings a melody`
 a305=`Jesus, Jesus, Jesus!`
-a306=`Love is like.the sunshine, warm and bright`
+a306=`Love is like the sunshine, warm and bright`
 a307=`To Calvary, to Calvary,`
 a308=`Fear thou not, for I am with thee`
 a309=`I heard the call, " Come, follow! "-that was all`
@@ -405,7 +405,7 @@ a381=`Behold, behold, behold the Lamb of God`
 a382=`Prayer changes things`
 a383=`Yes! yes! yesl oh, yes! `
 a384=`Jesus is coming for me, `
-a385=`Whatsoever He saith to you, do "it`
+a385=`Whatsoever He saith to you, do it`
 a386=`All I give to Thee, Lord, `
 a387=`Lord, make me useful to Thee! `
 a388=`Wonderful, wonderful Jesus!`
@@ -461,7 +461,7 @@ a437=`To this end the Saviour lived`
 a438=`On Calvary's tree He suffered for me`
 a439=`We part from one another`
 a440=`Able to save from sin and its power`
-a441=`For God so loved the world," I find it written `
+a441=`For God so loved the world, I find it written `
 a442=`I am waiting, I am waiting, only waiting for Him to come`
 a443=`Something must have happened to free a sinner slave`
 a444=`I am satisfied with Jesus`
@@ -532,7 +532,7 @@ a508=`Lord Jesus Christ, in sacred tryst`
 a509=`More than conquerors we shall be`
 a510=`Jesus is waiting for you`
 a511=`Able to keep me secure and strong`
-a512=`Looking unto Jesus," day by day`
+a512=`Looking unto Jesus, day by day`
 a513=`Out and out for Jesus may I be`
 a514=`I have not much to give Thee, Lord`
 a515=`In the steps of Christ my Saviour `
@@ -556,7 +556,7 @@ a532=`Thy presence, Lord, go with me `
 a533=`Abba, Father, unto Thee `
 a534=`Loving Saviour, now behold us `
 a535=`The Lord bless and keep thee,`
-a536=`All that I am He made me,All your anxiety, all your care, `
+a536=`All that I am He made me, All your anxiety, all your care, `
 a537=`All your anxiety, all your care, `
 a538=`All that I need is in Jesus; `
 a539=`All the world shall own Him Lord`
@@ -565,7 +565,7 @@ a541=`Almighty Father, hear our prayer`
 a542=`As many as received Him`
 a543=`Be still, and know that I am God!`
 a544=`Because God loved the world `
-a545=`Behold! He comethl `
+a545=`Behold! He cometh! `
 a546=`Blind eyes Jesus made to see,`
 a547=`Bring Him thy sorrow`
 a548=`Be thou faithful unto death`
@@ -625,7 +625,7 @@ a601=`I have seen the face of Jesus`
 a602=`In a manger `
 a603=`If we say that we have fellowship with God`
 a604=`I am not ashamed of the Gospel of Christ`
-a605=`I'm.hiding Thy Word in my heart`
+a605=`I'm hiding Thy Word in my heart`
 a606=`In a good place, for a good purpose`
 a607=`In my need Jesus found me`
 a608=`It is a good thing to give thanks unto the Lord`
@@ -765,10 +765,10 @@ a302=`Absolutely tender, absolutely true `
 a3=`All glory be to Jesus `
 a386=`All I give to Thee, Lord,  `
 a4=`All power is given unto Me `
-a536=`All that I am He made me,All your anxiety, all your care,  `
+a536=`All that I am He made me, All your anxiety, all your care,  `
 a538=`All that I need is in Jesus;  `
 a5=`All the way to Calvary, He went for me `
-a6=`All the world for Jesus," let the chorus ring `
+a6=`All the world for Jesus, let the chorus ring `
 a539=`All the world shall own Him Lord `
 a540=`All things work together for good to them that love God; `
 a7=`All we like sheep have gone astray `
@@ -803,7 +803,7 @@ a400=`Behold the Lamb of God `
 a366=`Behold the Lamb of God! `
 a550=`Behold the stone is rolled away `
 a549=`Behold! Behold! I stand at the door and knock `
-a545=`Behold! He comethl  `
+a545=`Behold! He cometh!  `
 a381=`Behold, behold, behold the Lamb of God `
 a424=`Behold, I stand at the door, and knock `
 a10=`Behold, I stand, I stand at the door and knock `
@@ -837,7 +837,7 @@ a19=`Come and serve the Master `
 a22=`Come unto Me, all ye that labour and are heavy laden `
 a560=`Come unto Me, all ye that labour and are heavy laden `
 a20=`Come, follow the King, come, follow the King `
-a21=`Come. let us reason, reason, reason `
+a21=`Come let us reason, reason, reason `
 a249=`Coming suddenly! Coming soon `
 a553=`Coming, coming, coming my Saviour to Thee `
 a23=`Count your blessings, name them one by one `
@@ -872,7 +872,7 @@ a565=`Follow down the trail, 0 pioneers `
 a30=`Follow, follow, I would follow Jesus `
 a706=`For all Thy good gifts we lift our hearts `
 a31=`For God so loved the world, that He gave His only begotten Son `
-a441=`For God so loved the world," I find it written  `
+a441=`For God so loved the world, I find it written  `
 a32=`For I know Whom I have believed `
 a33=`For the Lion of Judah shall break every chain `
 a277=`Free, free, free!  `
@@ -1030,7 +1030,7 @@ a278=`I'm happy when ev'rything happens to please `
 a270=`I'm Iist'ning in, I'm list'ning in `
 a298=`I'm not too young to come to Jesus `
 a262=`I'm safe because I'm sheltered `
-a605=`I'm.hiding Thy Word in my heart `
+a605=`I'm hiding Thy Word in my heart `
 a606=`In a good place, for a good purpose `
 a602=`In a manger  `
 a600=`In every place at any time `
@@ -1045,7 +1045,7 @@ a396=`It is I; be not afraid. `
 a609=`It is morning, it is morning in my heart `
 a83=`It is not try, but trust `
 a430=`It passeth all knowledge, that wondrous love `
-a84=`It's just like Him," to take my sins away `
+a84=`It's just like Him, to take my sins away `
 a355=`I've got a home in the Rock! `
 a447=`Jesus came to save me from sin's guilt and power `
 a231=`Jesus can save little children `
@@ -1137,7 +1137,7 @@ a622=`Lo, I am with you alway, alway, alway. `
 a413=`Look up when the day is dawning  `
 a623=`Look! and keep on looking `
 a113=`Looking unto Jesus, patiently we run `
-a512=`Looking unto Jesus," day by day `
+a512=`Looking unto Jesus, day by day `
 a497=`Lord Jesus Christ, I trust Thee  `
 a508=`Lord Jesus Christ, in sacred tryst `
 a626=`Lord Jesus, be my lamp and light `
@@ -1157,7 +1157,7 @@ a495=`Lord, lay some soul upon my heart `
 a387=`Lord, make me useful to Thee!  `
 a473=`Lord, our meeting is beginning `
 a421=`Lord, with Thine own promises I'm knocking at Thy door `
-a306=`Love is like.the sunshine, warm and bright `
+a306=`Love is like the sunshine, warm and bright `
 a368=`Love lifted me! Love lifted me!  `
 a629=`Love the world through me, Lord `
 a328=`Love to the uttermost! Love to the uttermost `
@@ -1356,7 +1356,7 @@ a666=`The stone was rolled away `
 a190=`The wages of sin is death, the wages of sin is death `
 a191=`The whole wide world, the whole wide world `
 a704=`The wise man built his house upon the rock `
-a192=`The, Word was made flesh and tabernacled among us `
+a192=`The Word was made flesh and tabernacled among us `
 a432=`There hath no temptation taken you `
 a286=`There is a Name I love `
 a289=`There is joy, there is joy `
@@ -1370,7 +1370,7 @@ a415=`There's a way back to God from the dark paths of sin `
 a241=`There's no one like Jesus can cheer me today `
 a193=`They plaited Thee a crown of thorn `
 a670=`They that wait on God, they shall renew their strength `
-a194=`This' is a faithful saying `
+a194=`This is a faithful saying `
 a265=`This is why I love my Saviour `
 a310=`This one thing I do `
 a195=`This same Jesus shall return again `
@@ -1428,7 +1428,7 @@ a448=`What are you doing with Jesus `
 a211=`What must I do to be saved `
 a678=`What shall it profit a man if he shall gain the whole world and lose his own soul `
 a213=`What will you do with the King called Jesus? `
-a385=`Whatsoever He saith to you, do "it `
+a385=`Whatsoever He saith to you, do it `
 a679=`Whatsoever things are lovely `
 a212=`Whatsoever things are true `
 a214=`When Christ comes in, when Christ comes in `
@@ -1657,7 +1657,7 @@ a20=`
 <p>And follow, come, follow the King. </p>
 `
 a21=`
-<p>Come. let us reason, reason, reason, </p>
+<p>Come let us reason, reason, reason, </p>
 <p>Come, let us reason, thus saith the Lord; </p>
 <p>Though your sins be as scarlet, scarlet, scarlet, </p>
 <p>They shall be whiter, yes, whiter than snow. </p>
@@ -3392,7 +3392,7 @@ a274=`
 a275=`
 <p>"If we walk in the light, as He is in the light, we have </p>
 <p>fellowship one with another, and the blood of Jesus Christ </p>
-<p>His Son cleanseth us from all sin."-l John 1. 7. </p>
+<p>His Son cleanseth us from all sin." -l John 1. 7 </p>
 `
 a276=`
 <p>Shall it be self or Jesus­</p>
@@ -4654,7 +4654,7 @@ a441=`
 <p>"For God so loved the world," I find it written </p>
 <p>In verse sixteen, John's Gospel, chapter three, </p>
 <p>"He gave His Son," Who was for sinners smitten, </p>
-<p>When nailed upon the cross at Calvary, </p>
+<p>When nailed upon the cross at Calvary. </p>
 <p>Such wondrous love, it passes human knowledge, </p>
 <p>For Jesus died that we might ever live; </p>
 <p>Eternal life! So none need ever perish, </p>
@@ -4945,7 +4945,7 @@ a474=`
 <p>To highest heaven ascended, </p>
 <p>No more to die, </p>
 <p>His suff'rings all are ended; </p>
-<p>His life to me by faith He doth impart­-</p>
+<p>His life to me by faith He doth impart­--</p>
 <p>To live again victorious in my heart. </p>
 `
 a475=`
@@ -5261,7 +5261,7 @@ a515=`
 <p>I will follow, follow on; </p>
 <p>He has brought me and has called me, </p>
 <p>And the love of sin has gone. </p>
-<p>He has cleansed me and Will keep me </p>
+<p>He has cleansed me and will keep me </p>
 <p>By His ever-living power, </p>
 <p>As I claim His faithful promise, </p>
 <p>“I am with thee hour by hour." </p>
@@ -5339,8 +5339,9 @@ a525=`
 <p>In all my sin and need I bow; </p>
 <p>Dear Lamb of God, once crucified, </p>
 <p>Receive and save me now. </p>
+<br>
 <p>Up to the throne where Thou dost Iive, </p>
-<p>Saviour, I bring this earnest plea­</p>
+<p>Saviour, I bring this earnest plea­-</p>
 <p>That in Thy mercy Thou wilt give </p>
 <p>Eternal life to me. </p>
 `
@@ -5494,7 +5495,7 @@ a544=`
 <p>But live with Him on high. </p>
 `
 a545=`
-<p>Behold! He comethl </p>
+<p>Behold! He cometh! </p>
 <p>Behold! He cometh! </p>
 <p>He cometh to take all His own away. </p>
 <p>Behold! He cometh! </p>
@@ -5666,7 +5667,7 @@ a567=`
 a568=`
 <p>God is able to save you, </p>
 <p>He is able to keep; </p>
-<p>For the God who watches o'er vou </p>
+<p>For the God who watches o'er you </p>
 <p>Does not slumber or sleep. </p>
 <p>He will help you when tempted, </p>
 <p>He will hold lest you fall, </p>
@@ -7326,7 +7327,7 @@ function tuneCollections(){
 					326,	327,	328,	329, song330,	331,	332,	333,	334,	335,	336,	337,	338,	339,	340,	341,	342,	343,	344,	345,	346,	347,	348,	349,	350, +
 					351,	352,	353,	354,	355,	356,	357,	358,	359,	360,	361,	362, song363,	364,	365,	366,	367,	368,	369,	370,	371,	372,	373,	374,	375, +
 					376,	377,	378,	379,	380,	381,	382,	383,	384,	385,	386,	387,	388, song389,	390,	391,	392,	393,	394,	395,	396,	397,	398,	399,		 +
-					400, song401,	402,	403,	404,	405,	406,	407,	408,	409,	410, song411,	412,	413,	414,	415,	416,	417, song418,	419,	420,	421,	422,	423,	424,	425, +
+					400, song401,	402,	403,	404,	405,	406,	407, song408, song409,	410, song411,	412,	413,	414,	415,	416,	417, song418,	419,	420,	421,	422,	423,	424,	425, +
 					426,	427,	428,	429,	430,	431,	432,	433,	434,	435,	436,	437,	438,	439,	440,	441,	442,	443,	444,	445,	446,	447,	448,	449,	450, +
 					451,	452,	453,	454,	455,	456,	457,	458,	459,	460,	461,	462,	463,	464, song465,	466,	467,	468,	469,	470,	471,	472,	473,	474, song475, 476, +
 							477,	478,	479,	480,	481,	482,	483,	484,	485,	486,	487,	488,	489,	490,	491,	492,	493,	494,	495,	496,	497,	498,	499,	500, +
