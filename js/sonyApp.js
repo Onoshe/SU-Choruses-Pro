@@ -451,7 +451,7 @@ $(function(){
 		var soloPreview = addSongSolo.replace(/:/g, '<p>');
 		//var soloPreview = addSongSolo.replace(/"/g, '<p>');
 		$("#mySongCreated").append(soloPreview);
-		}
+		}else{"Write your Song title and solo to preview"}
     });
 });
 
